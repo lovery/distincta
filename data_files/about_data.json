@@ -1,0 +1,42 @@
+[
+	{
+		"page_title": "About Us",
+		"meta_title": "About Us - Distincta - Intellectual Property Agency",
+		"meta_description": "Ralitsa Dimova Milena Kichashka IP attorneys, representation before BPO, OHIM, WIPO, customs authorities, the Court",
+		"meta_keywords": "Intellectual Property, Trade Marks, Designs, Copyright, Patents, Geographical Indications, Trade Secrets, Registration, Certificate, License, Agreement, Innovation, Creative, Litigation, Bulgarian Patent Office, OHIM, WIPO, EPO",
+		"review_biography_label": "Review",
+		"hide_biography_label": "Hide",
+		"about_us_content": [
+			"We employ all our knowledge, experience and energy to be distinctive in our approach, our problem-solving methods and our attitude towards your intellectual property.",
+			"We know that the best strategy is always determined on a case-by-case basis, so we focus first on understanding our clients, their business interests and priorities. We work close with them and cherish the strong and lasting relationships we build."
+		],
+		"biographies": [
+			{
+				"name": "Ralitsa Dimova",
+				"order": 1,
+				"photo": "ralitsa.png",
+				"alt_text": "Ralitsa Dimova Photo",
+				"bg_trade_number": "Bulgarian Trade Mark and Design Attorney No. 301",
+				"en_trade_number": "European Trade Mark and Design Attorney No. 39624",
+				"content": [
+					"Ralitsa holds a Master’s Degree in Intellectual Property.",
+					"She has been working in the field of IP since 2001.",
+					"Since 2007 she has been a licensed trade mark and design attorney, representing clients before the Bulgarian Patent Office, the European Union Intellectual Property Office and the World Intellectual Property Organization, consulting them on the most time and cost-efficient way to register IP rights in Bulgaria and abroad.",
+					"She has plenty of experience handling large IP portfolios strategizing on the most effective protection and enforcement, negotiating and concluding contracts and coexistence agreements. She is an active participant in national and international forums on any subject that concerns the development of the IP legislative framework and practice."
+				]
+			},
+			{
+				"name": "Milena Kichashka",
+				"order": 2,
+				"photo": "milena.png",
+				"alt_text": "Milena Kichashka Photo",
+				"bg_trade_number": "Bulgarian Trade Mark and Design Attorney No. 467",
+				"en_trade_number": "European Trade Mark and Design Attorney No. 68429",
+				"content": [
+					"Milena holds a Master’s Degree in Intellectual Property.",
+					"Since 2008 she has been an associate in an IP firm, where she has been dealing with every aspect of the IP protection and enforcement - from searches to applications for registration, office actions, oppositions, revocations, license and assignment agreements, negotiations and coexistence agreements, warning letters and notary invitations. Between 2013-2014 she completed an internship in Litigation Service of the European Union Intellectual Property Office, where she was trained to represent the Office before the Court of Justice of the EU. Between 2014-1015 as legal assistant she prepared drafts of decisions for the First Board Appeal of the European Union Intellectual Property Office. Licensed trade mark and design attorney since 2013."
+				]
+			}
+		]
+	}
+]

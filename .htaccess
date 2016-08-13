@@ -1,0 +1,31 @@
+Options -Indexes
+
+#<IfModule mod_fcgid.c>
+#   AddHandler fcgid-script .php
+#   FcgidWrapper /home/[CPANEL_USER_NAME]/php5.fcgi .php
+#</IfModule>
+
+#<IfModule mod_env.c>
+#        SetEnv PHPRC /home/CPANEL_NAME/php.ini
+#</IfModule>
+
+RewriteEngine on
+
+#<If "%{HTTP_HOST} == 'distincta.dev'">
+#    Redirect 301 "/" "http://www.distincta.dev/"
+#</If>
+
+#RewriteCond %{QUERY_STRING} ^_escaped_fragment_=/?(.*)$
+#RewriteRule ^(.*)$ /snapshots.html?page=%1? [NC,L]
+
+RewriteCond "%{HTTP_HOST}" "!^www\." [NC]
+RewriteCond "%{HTTP_HOST}" "!^$"
+RewriteRule "^/?(.*)"      "http://www.%{HTTP_HOST}/$1" [L,R,NE]
+
+# Don't rewrite files or directories
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Rewrite everything else to index.html to allow html5 state links
+RewriteRule ^ index.html [L]

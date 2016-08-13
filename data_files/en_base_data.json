@@ -1,0 +1,46 @@
+[
+    {
+        "logo_filename": "logo_white.png",
+        "logo_alt_text": "Distincta - Intellectual Property Agency - Logo",
+        "slogan": "BE DISTINCTIVE!",
+        "pages": [
+            { "name": "Expertise", "slug": "expertise", "location": "en/expertise", "order": 1 },
+            { "name": "About us", "slug": "about", "location": "en/about", "order": 2 },
+            { "name": "Services", "slug": "services", "location": "en/services", "order": 3 },
+            { "name": "Contact us", "slug": "contact", "location": "en/contact", "order": 5 }
+        ],
+        "hidden_sections": [
+            { "name": "News & Insight", "slug": "news", "location": "en/news", "order": 4 }
+        ],
+        "lang": "en",
+        "languages": [
+            { "name": "BG", "location": "bg/home", "slug": "bg", "order": 1 }
+        ],
+        "meta_title": "Distincta - Intellectual Property Agency",
+        "meta_description": "Distincta Intellectual Property Agency, we help you identify, register, manage and protect your trade marks, designs and creative works",
+        "meta_keywords": "Intellectual Property, Trade Marks, Designs, Copyright, Patents, Geographical Indications, Trade Secrets, Registration, Certificate, License, Agreement, Innovation, Creative, Litigation, Bulgarian Patent Office, OHIM, WIPO, EPO",
+        "home_slide": [ "We help you identify, register,", "manage and protect your trade marks,", "designs and creative works"],
+        "home_slide_img_alt_text": "Gaudi Mosaics Intellectual Property",
+        "social_networks": [
+            {
+                "icon": "fa-linkedin",
+                "display": "yes",
+                "link": "https://www.linkedin.com/company/distincta?trk=top_nav_home"
+            },
+            {
+                "icon": "fa-google-plus",
+                "display": "yes",
+                "link": "https://plus.google.com/101566740796570220790/"
+            },
+            {
+                "icon": "fa-facebook",
+                "display": "no",
+                "link": "https://www.facebook.com/ralitsa.dimova.18"
+            }
+        ],
+        "label_posted_on": "Posted on",
+        "label_autor": "Autor",
+        "label_tags": "Tags",
+        "label_share": "Share"
+    }
+]

@@ -1,0 +1,28 @@
+<header>
+    
+    <nav id="distincta-nav-bar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <distincta-nav-bar header-info="base_data" page-slug="'expertise'"></distincta-nav-bar>
+        </div>
+        <!-- /.container-->
+    </nav>
+</header>
+
+<div class="wrapper">
+    <section class="expertise">
+        <div class="container">
+    
+            <div class="section-heading scrollpoint sp-effect3">
+                <div class="divider">
+                    <h1>{{ expertise_data.page_title }}</h1>
+                </div>
+            </div>
+    
+            <div class="section-heading section-content scrollpoint sp-effect5" >
+                <p ng-repeat="content in expertise_data.content">{{ content }}</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<distincta-footer-bar footer-info="base_data"></distincta-footer-bar>

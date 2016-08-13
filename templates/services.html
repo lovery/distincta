@@ -1,0 +1,37 @@
+<header>
+    
+    <nav id="distincta-nav-bar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <distincta-nav-bar header-info="base_data" page-slug="'services'"></distincta-nav-bar>
+        </div>
+        <!-- /.container-->
+    </nav>
+</header>
+
+<div class="wrapper">
+    <section class="services">
+        <div class="container">
+            <div class="section-heading scrollpoint sp-effect3">
+                <div class="divider"><h1>{{ services_data.page_title }}</h1></div>
+                <p>{{ services_data.short_sub_title }}</p>
+            </div>
+            <div class="panel-group scrollpoint sp-effect5" id="accordion">
+                <div class="panel panel-default v3" ng-repeat="service in services_data.services">
+                    <div class="panel-heading" id="heading{{ service.order }}">
+                        <h3 class="panel-title" ng-click="accordeonService(service.order)">
+                            <!--i class="fa {{ service.icon }} fa-2x"></i-->
+                            <span>{{ service.name }}</span>
+                            <i class="fa fa-angle-right fa-2x" id="fa-icon_inactive_{{ service.order }}"></i>
+                            <i class="fa fa-angle-down fa-2x hidden" id="fa-icon_active_{{ service.order }}"></i>
+                        </h3>
+                    </div>
+                    <div id="collapse_{{ service.order }}" class="panel-collapse collapse in">
+                        <div class="panel-body"><p>{{ service.content }}</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<distincta-footer-bar footer-info="base_data"></distincta-footer-bar>

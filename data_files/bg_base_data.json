@@ -1,0 +1,44 @@
+[
+    {
+        "logo_filename": "logo_white.png",
+        "logo_alt_text": "Дистинкта - Агенция за интелектуална собственост - Лого",
+        "slogan": "Бъдете отличителни!",
+        "pages": [
+            { "name": "Дейност", "slug": "expertise", "location": "bg/expertise", "order": 1 },
+            { "name": "За нас", "slug": "about", "location": "bg/about", "order": 2 },
+            { "name": "Услуги", "slug": "services", "location": "bg/services", "order": 3 },
+            { "name": "Новини и съвети", "slug": "news", "location": "bg/news", "order": 4 },
+            { "name": "За контакт", "slug": "contact", "location": "bg/contact", "order": 5 }
+        ],
+        "lang": "bg",
+        "languages": [
+            { "name": "EN", "location": "en/home", "slug": "en", "order": 1 }
+        ],
+        "meta_title": "Дистинкта - Агенция за интелектуална собственост",
+        "meta_description": "Агенция за интелектуална собственост Дистинкта, помагаме Ви да защитавате и използвате Вашите търговски марки, дизайни, художествени произведения и други творчески идеи",
+        "meta_keywords": "интелектуална собственост, търговски марки, дизайни, лицензия, авторски права, патенти, географски означения, търговски тайни, регистрация, сертификати, договори, споразумения, иновация, творчество, съдебни спорове, Българско патентно ведомство, Ведомство за хармонизация на пазар, Световна организация за интелектуална собственост, Европейско патентно ведомство",
+        "home_slide": ["Ние Ви помагаме ефективно да защитавате", "и използвате Вашите търговски марки,", "дизайни и творчески произведения"],
+        "home_slide_img_alt_text": "мозайка на Гауди интелектуална собственост",
+        "social_networks": [
+            {
+                "icon": "fa-linkedin",
+                "display": "yes",
+                "link": "https://www.linkedin.com/company/distincta?trk=top_nav_home"
+            },
+            {
+                "icon": "fa-google-plus",
+                "display": "yes",
+                "link": "https://plus.google.com/101566740796570220790/"
+            },
+            {
+                "icon": "fa-facebook",
+                "display": "no",
+                "link": "https://www.facebook.com/ralitsa.dimova.18"
+            }
+        ],
+        "label_posted_on": "Публикувано на",
+        "label_autor": "Автор",
+        "label_tags": "Тагове",
+        "label_share": "Сподели"
+    }
+]

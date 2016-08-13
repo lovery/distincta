@@ -1,0 +1,37 @@
+<header>
+    
+    <nav id="distincta-nav-bar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <distincta-nav-bar header-info="base_data" page-slug="'about'"></distincta-nav-bar>
+        </div>
+        <!-- /.container-->
+    </nav>
+</header>
+
+<div class="wrapper">
+    <section class="about-person">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="about-item person scrollpoint sp-effect3 active animated fadeInLeft photo">
+                        <img class="img-circle" ng-src="img/{{ person_data.photo }}" alt="{{ person_data.alt_text }}" />
+                    </div>
+                </div>
+                <div class="col-md-8 section-heading scrollpoint sp-effect3 active animated fadeInRight">
+                    <div class="divider">
+                        <h1>{{ person_data.name }}</h1>
+                    </div>
+                    <p class="trade_number" ng-bind-html="person_data.bg_trade_number"></p>
+                    <p class="trade_number" ng-bind-html="person_data.en_trade_number"></p>
+                </div>
+            </div>
+            <div class=row>
+                <div class="col-md-12 section-heading scrollpoint sp-effect3 active animated fadeInTop">
+                    <p ng-repeat="paragraph in person_data.content">{{ paragraph }}</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<distincta-footer-bar footer-info="base_data"></distincta-footer-bar>
