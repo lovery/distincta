@@ -1,0 +1,31 @@
+{
+  "name": "distincta",
+  "version": "1.0.0",
+  "description": "Intelectual Property Agency",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovery/distincta.git"
+  },
+  "keywords": [
+    "Distincta",
+    "Intelectual",
+    "Property",
+    "Agency"
+  ],
+  "author": "Zhivka Dimova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lovery/distincta/issues"
+  },
+  "homepage": "https://github.com/lovery/distincta#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "html-snapshots": "^0.13.2",
+    "path": "^0.12.7",
+    "util": "^0.10.3"
+  }
+}
