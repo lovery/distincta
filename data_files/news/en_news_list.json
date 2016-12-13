@@ -1,6 +1,34 @@
 [
 	{
         "news": [
+		{
+                "location": "unregistered-tms",
+                "title": "Unregistered trade marks in Bulgaria",
+                "date": "06 December 2016",
+                "autor": "Milena Kichashka",
+                "autor_slug": "milena-kichashka",
+                "sub_title": "The Bulgarian trade mark law acknowledges the rights in earlier unregistered trade marks, but the protection is rather restricted",
+                "description": "The various national jurisdictions of the EU have different approach on unregistered trade marks. Some like France and Spain do not recognize them. In others like Denmark the acquisition of trade mark rights without registration is rather easy. The UK recognizes passing-off. Still others pose specific requirements for use and recognition of the mark, in order to grant protection. Bulgaria is of the latter.",
+				"social_description": "Trademark protection for unregistered trademarks in Bulgaria",
+                "social_caption": "How are unregistered trademarks protected in Bulgaria",
+                "tags": ["unregistered trademark", "trademark protection", "bad faith", "proof of use", "opposition", "cancellation"],
+                "image": "unregistered-tms.jpg",
+                "image_alt_text": "unregistered-tms"
+            },
+			{
+                "location": "black-friday-mark",
+                "title": "Black Friday is now a registered trade mark in Bulgaria. Is it enforceable, though?",
+                "date": "25 November 2016",
+                "autor": "Milena Kichashka",
+                "autor_slug": "milena-kichashka",
+                "sub_title": "The term Black Friday was successfully registered as a trade mark even for retail services. Exactly how worrisome is this registration?",
+                "description": "Earlier this year the Bulgarian Patent Office registered the word mark BLACK FRIDAY and its translation into Bulgarian (ЧЕРЕН ПЕТЪК) for various services in class 35, including services such as presentation of goods...",
+				"social_description": "",
+                "social_caption": "Trade mark registration of the term Black Friday",
+                "tags": ["trade mark", "Black Friday", "distinctive character", "goods and services", "scope of protection", "enforcement"],
+                "image": "black-friday.jpg",
+                "image_alt_text": "Black-Friday"
+            }
         ]
 	}
 ]
