@@ -234,18 +234,6 @@ distincta.controller('NewsCtrl', [
         });
         $http.get('data_files/news/' + $routeParams.lang + '_news_list.json').success( function (data) {
             $scope.news_list = data[0];
-            $scope.filteredNews = [];
-            $scope.currentPage = 1;
-            $scope.numPerPage = 1;
-            $scope.maxSize = 5;
-
-            $scope.pageChanged = function() {
-                var begin = (($scope.currentPage - 1) * $scope.numPerPage);
-                var end = begin + $scope.numPerPage;
-
-                $scope.filteredNews = $scope.news_list.news.slice(begin, end);
-            };
-            $scope.pageChanged();
         });
         $('#distincta-nav-bar').addClass('scrolled');
         allowScrollMenu = false;
