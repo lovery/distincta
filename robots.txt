@@ -1,3 +1,4 @@
 User-agent: *
 Disallow:
 Sitemap: http://www.distincta.eu/sitemap.xml
+Host: www.distincta.eu
