@@ -24,8 +24,8 @@
 			"icon": "fa-fax"
 		},
 		"mobile": {
-			"display": "no",
-			"value": "+359......",
+			"display": "yes",
+			"value": "+359 88993 8522",
 			"icon": "fa-mobile"
 		},
 		"email": {
