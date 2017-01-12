@@ -22,15 +22,15 @@
                     <div class="row">
                         <div class="col-12 contact-details scrollpoint sp-effect5">
                             <div class="media" ng-if="contact_data.address.display != 'no'">
-                                <a class="pull-left" href="#" >
+                                <span class="pull-left">
                                     <i class="fa {{ contact_data.address.icon }} fa-2x"></i>
-                                </a>
+                                </span>
                                 <div class="media-body">
                                     <h4 class="media-heading">{{ contact_data.address.value }}</h4>
                                 </div>
                             </div>
                             <div class="media" ng-if="contact_data.email.display != 'no'">
-                                <a class="pull-left" href="#" >
+                                <a class="pull-left" href="mailto:{{ contact_data.email.value }}" >
                                     <i class="fa {{ contact_data.email.icon }} fa-2x"></i>
                                 </a>
                                 <div class="media-body">
@@ -40,7 +40,7 @@
                                 </div>
                             </div>
                             <div class="media" ng-if="contact_data.phone.display != 'no'">
-                                <a class="pull-left" href="#" >
+                                <a class="pull-left" href="tel:{{ contact_data.phone.value }}" >
                                     <i class="fa {{ contact_data.phone.icon }} fa-2x"></i>
                                 </a>
                                 <div class="media-body">
@@ -48,7 +48,7 @@
                                 </div>
                             </div>
                             <div class="media" ng-if="contact_data.fax.display != 'no'">
-                                <a class="pull-left" href="#" >
+                                <a class="pull-left" href="fax:{{ contact_data.fax.value }}" >
                                     <i class="fa {{ contact_data.fax.icon }} fa-2x"></i>
                                 </a>
                                 <div class="media-body">
@@ -56,7 +56,7 @@
                                 </div>
                             </div>
                             <div class="media" ng-if="contact_data.mobile.display != 'no'">
-                                <a class="pull-left" href="#" >
+                                <a class="pull-left" href="tel:{{ contact_data.mobile.value }}" >
                                     <i class="fa {{ contact_data.mobile.icon }} fa-2x"></i>
                                 </a>
                                 <div class="media-body">
