@@ -37,12 +37,12 @@
                         </div>
                         <a href="{{ base_data.lang + '/news/' + news.location }}"><img ng-src="img/news/{{ news.image }}" alt="{{ news.image_alt_text }}" class="scale_image"></a>
                         <div class="social-share">
-                            <a href="#" socialshare socialshare-provider="facebook" socialshare-type="feed" socialshare-text="{{ news.title }}"
+                            <!--a href="#" socialshare socialshare-provider="facebook" socialshare-type="feed" socialshare-text="{{ news.title }}"
                                 socialshare-description="{{ news.social_description }}"
                                 socialshare-caption="{{ news.social_caption }}" socialshare-media="http://{{ host }}/img/news/{{ news.image }}"
                                 socialshare-url="http://{{ host }}/{{ base_data.lang }}/news/{{ news.location }}" >
                                 <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
+                            </a-->
                             <a href="#" socialshare socialshare-provider="twitter" socialshare-text="{{ news.title }}" socialshare-hashtags="{{ news.tags.join(', ') }}"
                                 socialshare-url="http://{{ host }}/{{ base_data.lang }}/news/{{ news.location }}">
                                 <i class="fa fa-twitter" aria-hidden="true"></i>
