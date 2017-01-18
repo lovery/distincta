@@ -24,8 +24,28 @@
   "homepage": "https://github.com/lovery/distincta#readme",
   "devDependencies": {
     "assert": "^1.4.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-continuous-concat": "^0.1.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-less": "^3.3.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.11",
     "html-snapshots": "^0.13.2",
+    "jshint": "^2.9.4",
     "path": "^0.12.7",
     "util": "^0.10.3"
+  },
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-resource": "^1.6.1",
+    "angular-route": "^1.6.1",
+    "angular-sanitize": "^1.6.1",
+    "angular-socialshare": "^2.3.3",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1",
+    "jquery-waypoints": "^2.0.5"
   }
 }
