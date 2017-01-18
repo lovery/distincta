@@ -167,3 +167,29 @@ var appMaster = {
     }
 
 }; // AppMaster
+function calculateSlogan() {
+    $('.slogan-bg-image img').css('max-height', window.innerHeight - 100);
+    if (window.innerWidth >= window.innerHeight) {
+        $('.slogan-bg-image img').css('max-width', window.innerWidth * 4 / 5);
+        $('.slogan').css('margin-top', (window.innerHeight - 100) / 2);
+    } else {
+        $('.slogan-bg-image img').css('max-width', window.innerWidth);
+        $('.slogan-title').css('margin-top', (window.innerHeight - 100) / 4);
+    }
+}
+
+var allowScrollMenu = false;
+var loadAllAnimation = function (place) {
+    $('.pre-loader').css('display', 'block');
+    if (place == '.home') {
+        $('footer').hide();
+        calculateSlogan();
+    }
+    setTimeout(function(){
+        appMaster.preLoader();
+        appMaster.smoothScroll();
+        appMaster.screensCarousel();
+        appMaster.animateScript();
+        appMaster.revSlider();
+    }, 500);
+}
