@@ -2,16 +2,18 @@
 	'use strict';
 
 	angular.module('distincta').controller('ExpertiseCtrl', [
-        '$scope', '$routeParams', '$rootScope', '$http',
-		function ($scope, $routeParams, $rootScope, $http) {
-			$http.get('data_files/' + $routeParams.lang + '_base_data.json').then( function (response) {
-				$scope.base_data = response.data[0];
-			});
-			$http.get('data_files/' + $routeParams.lang + '_expertise_data.json').then( function (response) {
+        '$scope', '$stateParams', '$rootScope', '$location', '$http', 'ngMeta',
+		function ($scope, $stateParams, $rootScope, $location, $http, ngMeta) {
+			$http.get('data_files/' + $stateParams.lang + '_expertise_data.json').then( function (response) {
 				$scope.expertise_data = response.data[0];
-				$rootScope.metainformation.setTitle($scope.expertise_data.meta_title);
-				$rootScope.metainformation.setMetaDescription($scope.expertise_data.meta_description);
-				$rootScope.metainformation.setMetaKeywords($scope.expertise_data.meta_keywords);
+
+				ngMeta.setTitle($scope.expertise_data.page_title, '');
+				for (var tag in $scope.expertise_data.meta) {
+					ngMeta.setTag(tag, $scope.expertise_data.meta[tag]);
+					if (tag == 'og:image') {
+						ngMeta.setTag('og:image', $location.imageOrigin + $scope.expertise_data.meta[tag]);
+					}
+				}
 			});
 			$('#distincta-nav-bar').addClass('scrolled');
 			allowScrollMenu = false;

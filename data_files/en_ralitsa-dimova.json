@@ -1,11 +1,14 @@
 [
 	{
+		"title": "Ralitsa Dimova",
+		"page_title": "Ralitsa Dimova - Distincta - Intellectual Property Agency",
+		"meta": {
+			"description": "Ralitsa Dimova IP attorney, representation before BPO, OHIM, WIPO, customs authorities, the Court",
+			"keywords": "Intellectual Property, Trade Marks, Designs, Copyright, Patents, Geographical Indications, Trade Secrets, Registration, Certificate, License, Agreement, Innovation, Creative, Litigation, Bulgarian Patent Office, OHIM, WIPO, EPO",
+			"og:image": "ralitsa.png"
+		},
         "name": "Ralitsa Dimova",
         "slug": "ralitsa-dimova",
-		"page_title": "Ralitsa Dimova",
-		"meta_title": "Ralitsa Dimova - Distincta - Intellectual Property Agency",
-		"meta_description": "Ralitsa Dimova IP attorney, representation before BPO, OHIM, WIPO, customs authorities, the Court",
-		"meta_keywords": "Intellectual Property, Trade Marks, Designs, Copyright, Patents, Geographical Indications, Trade Secrets, Registration, Certificate, License, Agreement, Innovation, Creative, Litigation, Bulgarian Patent Office, OHIM, WIPO, EPO",
 		"photo": "ralitsa.png",
 		"alt_text": "Ralitsa Dimova Photo",
 		"bg_trade_number": "Bulgarian Trade Mark and Design Attorney <span class=\"nowrap\">No. 301</span>",

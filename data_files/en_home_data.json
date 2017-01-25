@@ -1,0 +1,19 @@
+[
+    {
+        "title": "Distincta",
+		"page_title": "Distincta - Intellectual Property Agency",
+        "meta": {
+        	"description": "Distincta Intellectual Property Agency, we help you identify, register, manage and protect your trade marks, designs and creative works",
+        	"keywords": "Intellectual Property, Trade Marks, Designs, Copyright, Patents, Geographical Indications, Trade Secrets, Registration, Certificate, License, Agreement, Innovation, Creative, Litigation, Bulgarian Patent Office, OHIM, WIPO, EPO"
+		},
+        "logo_filename": "logo_white.png",
+        "logo_alt_text": "Distincta - Intellectual Property Agency - Logo",
+        "slogan": "BE DISTINCTIVE!",
+        "home_slide": [
+		   	"We help you identify, register,",
+	   		"manage and protect your trade marks,",
+			"designs and creative works"
+		],
+        "home_slide_img_alt_text": "Gaudi Mosaics Intellectual Property"
+    }
+]

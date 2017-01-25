@@ -19,15 +19,15 @@ var config = {
 		js: [
 			'vendors/js/modernizr.custom.32033.js',
 			'node_modules/angular/angular.min.js',
-			'node_modules/angular-route/angular-route.min.js',
-			'node_modules/angular-resource/angular-resource.min.js',
+			'node_modules/angular-ui-router/release/angular-ui-router.min.js',
 			'node_modules/angular-sanitize/angular-sanitize.min.js',
 			'node_modules/angular-socialshare/dist/angular-socialshare.min.js',
 			'vendors/js/jquery-1.11.1.min.js',
 			'node_modules/bootstrap/dist/js/bootstrap.min.js',
 			'vendors/js/slick.min.js',
 			'node_modules/jquery-waypoints/waypoints.min.js',
-			'vendors/js/scripts.js'
+			'vendors/js/scripts.js',
+			'node_modules/ng-meta/dist/ngMeta.min.js'
 		],
 		css: [
 			'node_modules/bootstrap/dist/css/bootstrap.min.css',

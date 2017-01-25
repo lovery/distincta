@@ -1,9 +1,11 @@
 [
 	{
-		"page_title": "Services",
-		"meta_title": "Services - Distincta - Intellectual Property Agency",
-		"meta_description": "Acquisition, enforcement, management and commercial exploitation of IP (trade marks, industrial designs, copyright, trade secrets, geographical indications)",
-		"meta_keywords": "Intellectual Property, Trade Marks, Designs, Copyright, Patents, Geographical Indications, Trade Secrets, Registration, Certificate, License, Agreement, Innovation, Creative, Litigation, Bulgarian Patent Office, OHIM, WIPO, EPO",
+		"title": "Services",
+		"page_title": "Services - Distincta - Intellectual Property Agency",
+		"meta": {
+			"description": "Acquisition, enforcement, management and commercial exploitation of IP (trade marks, industrial designs, copyright, trade secrets, geographical indications)",
+			"keywords": "Intellectual Property, Trade Marks, Designs, Copyright, Patents, Geographical Indications, Trade Secrets, Registration, Certificate, License, Agreement, Innovation, Creative, Litigation, Bulgarian Patent Office, OHIM, WIPO, EPO"
+		},
 		"short_sub_title": "Acquisition, enforcement, management and commercial exploitation of IP (trade marks, industrial designs, copyright, trade secrets, geographical indications).",
 		"services": [
 			{

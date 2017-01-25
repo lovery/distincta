@@ -1,5 +1,5 @@
 <header class="home">
-    
+
     <nav id="distincta-nav-bar" class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <distincta-nav-bar header-info="base_data" page-name="test"></distincta-nav-bar>
@@ -9,14 +9,14 @@
     <div class="wrapper container">
         <div class="slogan">
             <div class="slogan-title">
-               <h1>{{ base_data.slogan }}</h1>
+               <h1>{{ home_data.slogan }}</h1>
             </div>
             <div class="slogan-content">
-                <h2><p><span ng-repeat="paragraph in base_data.home_slide">{{ paragraph }}<br/></span></p></h2>
+                <h2><p><span ng-repeat="paragraph in home_data.home_slide">{{ paragraph }}<br/></span></p></h2>
             </div>
         </div>
         <div class="slogan-bg-image">
-           <img src="img/be_distinctive.png" alt="{{ base_data.home_slide_img_alt_text }}"/>
+           <img src="img/be_distinctive.png" alt="{{ home_data.home_slide_img_alt_text }}"/>
         </div>
     </div>
 

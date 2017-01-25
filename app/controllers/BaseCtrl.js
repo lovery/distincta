@@ -2,17 +2,17 @@
 	'use strict';
 
 	angular.module('distincta').controller('BaseCtrl', [
-		'$scope', '$routeParams', '$rootScope', '$http', '$location', 'MetaInformation',
-		function ($scope, $routeParams, $rootScope, $http, $location, MetaInformation) {
-			$rootScope.metainformation = MetaInformation;
-			$scope.lang = $routeParams.lang;
-			$scope.base_data = [];
-			$scope.about_data = [];
-			$scope.expertise_data = [];
-			$scope.services_data = [];
-			$scope.news_data = [];
-			$scope.news_list = [];
-			$scope.contact_data = [];
+		'$scope', '$stateParams', '$rootScope', '$http', '$location', 'ngMeta',
+		function ($scope, $stateParams, $rootScope, $http, $location, ngMeta) {
+			$http.get('data_files/' + $location.path().substr(1, 2) + '_base_data.json').then( function (response) {
+				$scope.base_data = response.data[0];
+
+				ngMeta.setDefaultTag('author', $scope.base_data.meta.author);
+				ngMeta.setDefaultTag('og:url', $location.absUrl());
+				$location.imageOrigin = $location.protocol() + '://' + $location.host() + '/img/';
+				ngMeta.setDefaultTag('og:image', $location.imageOrigin + $scope.base_data.meta['og:image']);
+				ngMeta.setDefaultTag('og:type', $scope.base_data.meta['og:type']);
+			});
 			$scope.host = $location.host();
 		}
 	]);

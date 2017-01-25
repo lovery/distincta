@@ -2,30 +2,22 @@
 	'use strict';
 
 	angular.module('distincta').controller('AboutCtrl', [
-		'$scope', '$routeParams', '$rootScope', '$http',
-		function ($scope, $routeParams, $rootScope, $http) {
-			$http.get('data_files/' + $routeParams.lang + '_base_data.json').then( function (response) {
-				$scope.base_data = response.data[0];
-			});
-			$http.get('data_files/' + $routeParams.lang + '_about_data.json').then( function (response) {
+		'$scope', '$stateParams', '$rootScope', '$location', '$http', 'ngMeta',
+		function ($scope, $stateParams, $rootScope, $location, $http, ngMeta) {
+			$http.get('data_files/' + $stateParams.lang + '_about_data.json').then( function (response) {
 				$scope.about_data = response.data[0];
-				$rootScope.metainformation.setTitle($scope.about_data.meta_title);
-				$rootScope.metainformation.setMetaDescription($scope.about_data.meta_description);
-				$rootScope.metainformation.setMetaKeywords($scope.about_data.meta_keywords);
+
+				ngMeta.setTitle($scope.about_data.page_title, '');
+				for (var tag in $scope.about_data.meta) {
+					ngMeta.setTag(tag, $scope.about_data.meta[tag]);
+					if (tag == 'og:image') {
+						ngMeta.setTag('og:image', $location.imageOrigin + $scope.about_data.meta[tag]);
+					}
+				}
 			});
 			$('#distincta-nav-bar').addClass('scrolled');
 			allowScrollMenu = false;
 			loadAllAnimation('.about');
-			$scope.showBiography = function (clickedOrder, suffixV) {
-				$('#about-biography-review-' + suffixV + '_' + clickedOrder).css('display', 'none');
-				$('#about-biography-hide-' + suffixV + '_' + clickedOrder).css('display', 'block');
-				$('#about-biography-content-' + suffixV + '_' + clickedOrder).css('display', 'block');
-			}
-			$scope.hideBiography = function (clickedOrder, suffixV) {
-				$('#about-biography-review-' + suffixV + '_' + clickedOrder).css('display', 'block');
-				$('#about-biography-hide-' + suffixV + '_' + clickedOrder).css('display', 'none');
-				$('#about-biography-content-' + suffixV + '_' + clickedOrder).css('display', 'none');
-			}
 		}
 	]);
 }());

@@ -2,7 +2,6 @@
     {
         "logo_filename": "logo_white.png",
         "logo_alt_text": "Distincta - Intellectual Property Agency - Logo",
-        "slogan": "BE DISTINCTIVE!",
         "pages": [
             { "name": "Expertise", "slug": "expertise", "location": "en/expertise", "order": 1 },
             { "name": "About us", "slug": "about", "location": "en/about", "order": 2 },
@@ -14,11 +13,14 @@
         "languages": [
             { "name": "BG", "location": "bg/home", "slug": "bg", "order": 1 }
         ],
-        "meta_title": "Distincta - Intellectual Property Agency",
-        "meta_description": "Distincta Intellectual Property Agency, we help you identify, register, manage and protect your trade marks, designs and creative works",
-        "meta_keywords": "Intellectual Property, Trade Marks, Designs, Copyright, Patents, Geographical Indications, Trade Secrets, Registration, Certificate, License, Agreement, Innovation, Creative, Litigation, Bulgarian Patent Office, OHIM, WIPO, EPO",
-        "home_slide": [ "We help you identify, register,", "manage and protect your trade marks,", "designs and creative works"],
-        "home_slide_img_alt_text": "Gaudi Mosaics Intellectual Property",
+        "meta": {
+			"title": "Distincta - Intellectual Property Agency",
+        	"description": "Distincta Intellectual Property Agency, we help you identify, register, manage and protect your trade marks, designs and creative works",
+        	"keywords": "Intellectual Property, Trade Marks, Designs, Copyright, Patents, Geographical Indications, Trade Secrets, Registration, Certificate, License, Agreement, Innovation, Creative, Litigation, Bulgarian Patent Office, OHIM, WIPO, EPO",
+			"author": "Distincta - Intellectual Property Agency",
+			"og:image": "logo_share_image.png",
+			"og:type": "website"
+		},
         "social_networks": [
             {
                 "icon": "fa-linkedin",
@@ -39,6 +41,8 @@
         "label_posted_on": "Posted on",
         "label_autor": "Author",
         "label_tags": "Tags",
-        "label_share": "Share"
+        "label_share": "Share",
+		"label_button_more": "Read more",
+		"label_tag_search": "Publications containing this tag"
     }
 ]

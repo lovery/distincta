@@ -1,10 +1,10 @@
 <footer>
     <div class="container">
-        <a ng-href="home" class="scrollpoint sp-effect3">
+        <a href="home" class="scrollpoint sp-effect3">
             <img ng-src="img/{{ footerInfo.logo_filename }}" alt="{{ footerInfo.logo_alt_text }}" class="logo">
         </a>
         <div class="social">
-            <a target="_blank" class="scrollpoint sp-effect3" ng-repeat="network in footerInfo.social_networks" ng-href="{{ network.link }}" ng-if="network.display == 'yes'">
+            <a target="_blank" class="scrollpoint sp-effect3" ng-repeat="network in footerInfo.social_networks" href="{{ network.link }}" ng-if="network.display == 'yes'">
                 <i class="fa {{ network.icon }} fa-lg"></i>
             </a>
         </div>
