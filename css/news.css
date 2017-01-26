@@ -179,3 +179,30 @@ section.news .social-share i.fa.fa-facebook {
   padding: 10px 12px;
 }
 
+section.news .pagination {
+    display: flex;
+    justify-content: flex-end;
+}
+
+section.news .pagination>.active>a,
+section.news .pagination>.active>a:focus,
+section.news .pagination>.active>a:hover,
+section.news .pagination>.active>span,
+section.news .pagination>.active>span:focus,
+section.news .pagination>.active>span:hover {
+    background-color: #66cdcc;
+    border-color: #66cdcc;
+}
+section.news .pagination>.active>a,
+section.news .pagination>.active>a:focus,
+section.news .pagination>.active>a:hover,
+section.news .pagination>.active>span,
+section.news .pagination>.active>span:focus,
+section.news .pagination>.active>span:hover {
+    color: #fff;
+}
+
+section.news .pagination>li>a,
+section.news .pagination>li>span {
+    color: #66cdcc;
+}

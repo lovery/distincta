@@ -3,7 +3,7 @@
 (function () {
 	'use strict';
 
-	var distincta = angular.module('distincta', ['ui.router', 'ngSanitize', '720kb.socialshare', 'ngMeta']);
+	var distincta = angular.module('distincta', ['ui.router', 'ngSanitize', '720kb.socialshare', 'ngMeta', 'angularUtils.directives.dirPagination']);
 
 	distincta.run(['ngMeta',
 		function(ngMeta) {
@@ -16,7 +16,7 @@
 			$locationProvider.html5Mode(true);
 
 			ngMetaProvider.useTitleSuffix(true);
-			ngMetaProvider.setDefaultTitleSuffix(' - INDUSTRIA');
+			ngMetaProvider.setDefaultTitleSuffix(' - Distincta');
 
 			$stateProvider
 				.state('base', {

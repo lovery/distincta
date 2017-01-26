@@ -26,6 +26,10 @@
 			allowScrollMenu = false;
 			loadAllAnimation('.news');
 			$scope.tag = $location.hash();
+
+			$scope.scrollTopList = function(newPageNumber, oldPageNumber) {
+				$window.scrollTo(0, 0);
+			};
 		}
 	]);
 }());

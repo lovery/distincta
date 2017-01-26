@@ -22,6 +22,7 @@ var config = {
 			'node_modules/angular-ui-router/release/angular-ui-router.min.js',
 			'node_modules/angular-sanitize/angular-sanitize.min.js',
 			'node_modules/angular-socialshare/dist/angular-socialshare.min.js',
+			'node_modules/angular-utils-pagination/dirPagination.js',
 			'vendors/js/jquery-1.11.1.min.js',
 			'node_modules/bootstrap/dist/js/bootstrap.min.js',
 			'vendors/js/slick.min.js',

@@ -14,7 +14,7 @@
             <div class="section-heading scrollpoint sp-effect3 active animated fadeInDown">
                 <h2 ng-show="tag">{{ base_data.label_tag_search }} <strong>{{ tag }}</strong>:</h2>
                 <!--Post-->
-                <div class="row post" ng-repeat="news in news_list.news | filter:{tags: tag}">
+                <div class="row post" dir-paginate="news in news_list.news | filter: {tags: tag} | itemsPerPage: 5">
                     <div class="col-md-8 post_container">
                         <div class="post_title">
                             <a href="{{ base_data.lang + '/news/' + news.location }}">{{ news.title }}</a>
@@ -60,16 +60,7 @@
                 </div>
                 <!--Post-->
             </div>
-                <!--div class="pagination_block">
-                    <span>Page 1 of 4</span>
-                    <ul class="pagination clearfix">
-                        <li><a href="#" class="active">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
-                    </ul>
-                </div-->          
-            </div>
+            <dir-pagination-controls max-size="5" direction-links="false" boundary-links="true" on-page-change="scrollTopList(newPageNumber, oldPageNumber)"></dir-pagination-controls>
         </div>
     </section>
 </div>
