@@ -2,6 +2,20 @@
 	{
         "news": [
 		{
+                "location": "opposition",
+                "title": "Opposing a trade mark application in Bulgaria",
+                "date": "30 January 2017",
+                "autor": "Milena Kichashka",
+                "autor_slug": "milena-kichashka",
+                "sub_title": "Key points to keep in mind when filing opposition against a Bulgarian trade mark application",
+                "description": "When you encounter a trade mark application that is identical or similar to the one you already have registered or used, the usual approach is to object to its registration by filing an opposition...",
+				"social_description": "How the opposition procedure in Bulgaria work",
+                "social_caption": "Objecting to the registration of a trademark application by means of an opposition in Bulgaria",
+                "tags": ["trade mark", "similarity", "opposition", "Bulgarian trademark law", "proof of use", "likelihoood of confusion"],
+                "image": "magnifying-opposition.jpg",
+                "image_alt_text": "magnifying-glass-opposition"
+            },
+		{
                 "location": "unregistered-tms",
                 "title": "Unregistered trade marks in Bulgaria",
                 "date": "06 December 2016",
