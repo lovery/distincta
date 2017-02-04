@@ -68,6 +68,11 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+	<loc>http://www.distincta.eu/en/news/opposition</loc>
+    <lastmod>2017-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
 	<loc>http://www.www.distincta.eu/en/news/black-friday-mark</loc>
     <lastmod>2016-11-25</lastmod>
     <changefreq>monthly</changefreq>
