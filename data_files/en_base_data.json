@@ -24,7 +24,11 @@
 			"og:image": "logo_share_image.png",
 			"og:image:width": "1200",
 			"og:image:height": "630",
-			"og:type": "website"
+			"og:type": "website",
+			"twitter:card": "summary",
+			"twitter:title": "Distincta - Intellectual Property Agency",
+        	"twitter:description": "Distincta Intellectual Property Agency, we help you identify, register, manage and protect your trade marks, designs and creative works",
+			"twitter:image": "logo_share_image.png"
 		},
         "social_networks": [
             {

@@ -1,15 +1,21 @@
 [
 	{
+		"location": "opposition",
 		"page_title": "Opposing a trade mark application in Bulgaria - Distincta - Intellectual Property Agency",
 		"meta": {
 			"description": "Key points to keep in mind when filing opposition against a Bulgarian trade mark application",
 			"keywords": "trademark, similarity, opposition, Bulgarian trademark law, proof of use, likelihoood of confusion, objection, trademark registration, filing of opposition, opposition procedure",
+			"og:title": "Opposing a trade mark application in Bulgaria - Distincta - Intellectual Property Agency",
+			"og:description": "Key points to keep in mind when filing opposition against a Bulgarian trade mark application",
 			"og:locale": "en_US",
 			"og:type": "article",
 			"og:image": "magnifying-opposition.jpg",
 			"og:image:width": "472",
 			"og:image:height": "315",
-			"author": "Milena Kichashka - Distincta - Intellectual Property Agency"
+			"author": "Milena Kichashka - Distincta - Intellectual Property Agency",
+			"twitter:title": "Opposing a trade mark application in Bulgaria - Distincta - Intellectual Property Agency",
+			"twitter:description": "Key points to keep in mind when filing opposition against a Bulgarian trade mark application",
+			"twitter:image": "magnifying-opposition.jpg"
 		},
         "image": "magnifying-opposition.jpg",
         "image_alt_text": "magnifying-glass-opposition",

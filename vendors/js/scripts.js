@@ -193,3 +193,17 @@ var loadAllAnimation = function (place) {
         appMaster.revSlider();
     }, 500);
 }
+
+if (!String.prototype.endsWith) {
+	String.prototype.endsWith = function (ending) {
+		if (typeof ending !== 'string') {
+			return false;
+		}
+
+		if (!ending) {
+			return true;
+		}
+
+		return this.slice(-ending.length) === ending;
+	};
+}

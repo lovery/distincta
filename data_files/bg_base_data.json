@@ -24,7 +24,11 @@
 			"og:image": "logo_share_image.png",
 			"og:image:width": "1200",
 			"og:image:height": "630",
-			"og:type": "website"
+			"og:type": "website",
+			"twitter:card": "summary",
+			"twitter:title": "Дистинкта - Агенция за интелектуална собственост",
+			"twitter:description": "Агенция за интелектуална собственост Дистинкта, помагаме Ви да защитавате и използвате Вашите търговски марки, дизайни, художествени произведения и други творчески идеи",
+			"twitter:image": "logo_share_image.png"
 		},
         "social_networks": [
             {

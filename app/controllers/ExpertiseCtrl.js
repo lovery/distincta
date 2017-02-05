@@ -9,9 +9,10 @@
 
 				ngMeta.setTitle($scope.expertise_data.page_title, '');
 				for (var tag in $scope.expertise_data.meta) {
-					ngMeta.setTag(tag, $scope.expertise_data.meta[tag]);
-					if (tag == 'og:image') {
-						ngMeta.setTag('og:image', $location.imageOrigin + $scope.expertise_data.meta[tag]);
+					if (tag.endsWith(':image')) {
+						ngMeta.setTag(tag, $location.imageOrigin + $scope.expertise_data.meta[tag]);
+					} else {
+						ngMeta.setTag(tag, $scope.expertise_data.meta[tag]);
 					}
 				}
 			});

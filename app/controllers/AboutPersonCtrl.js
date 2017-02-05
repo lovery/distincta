@@ -9,9 +9,10 @@
 
 				ngMeta.setTitle($scope.person_data.page_title, '');
 				for (var tag in $scope.person_data.meta) {
-					ngMeta.setTag(tag, $scope.person_data.meta[tag]);
-					if (tag == 'og:image') {
-						ngMeta.setTag('og:image', $location.imageOrigin + $scope.person_data.meta[tag]);
+					if (tag.endsWith(':image')) {
+						ngMeta.setTag(tag, $location.imageOrigin + $scope.person_data.meta[tag]);
+					} else {
+						ngMeta.setTag(tag, $scope.person_data.meta[tag]);
 					}
 				}
 			});

@@ -5,12 +5,17 @@
 		"meta": {
 			"description": "Black Friday registered as a trade mark in Bulgaria",
 			"keywords": "trade mark, Black Friday, distinctive character, goods and services, scope of protection, enforcement",
+			"og:title": "Black Friday is now a registered trade mark in Bulgaria. Is it enforceable, though? - Distincta - Intellectual Property Agency",
+			"og:description": "Black Friday registered as a trade mark in Bulgaria",
 			"og:locale": "en_US",
 			"og:type": "article",
 			"og:image": "black-friday.jpg",
 			"og:image:width": "800",
 			"og:image:height": "421",
-			"author": "Milena Kichashka - Distincta - Intellectual Property Agency"
+			"author": "Milena Kichashka - Distincta - Intellectual Property Agency",
+			"twitter:title": "Black Friday is now a registered trade mark in Bulgaria. Is it enforceable, though? - Distincta - Intellectual Property Agency",
+			"twitter:description": "Black Friday registered as a trade mark in Bulgaria",
+			"twitter:image": "black-friday.jpg"
 		},
 		"image": "black-friday.jpg",
 		"image_alt_text": "Black-Friday",
