@@ -4,8 +4,11 @@
 		"meta": {
 			"description": "Key points to keep in mind when filing opposition against a Bulgarian trade mark application",
 			"keywords": "trademark, similarity, opposition, Bulgarian trademark law, proof of use, likelihoood of confusion, objection, trademark registration, filing of opposition, opposition procedure",
+			"og:locale": "en_US",
 			"og:type": "article",
 			"og:image": "magnifying-opposition.jpg",
+			"og:image:width": "472",
+			"og:image:height": "315",
 			"author": "Milena Kichashka - Distincta - Intellectual Property Agency"
 		},
         "image": "magnifying-opposition.jpg",

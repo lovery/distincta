@@ -5,8 +5,11 @@
 		"meta": {
 			"description": "Black Friday registered as a trade mark in Bulgaria",
 			"keywords": "trade mark, Black Friday, distinctive character, goods and services, scope of protection, enforcement",
-			"og:image": "black-friday.jpg",
+			"og:locale": "en_US",
 			"og:type": "article",
+			"og:image": "black-friday.jpg",
+			"og:image:width": "800",
+			"og:image:height": "421",
 			"author": "Milena Kichashka - Distincta - Intellectual Property Agency"
 		},
 		"image": "black-friday.jpg",

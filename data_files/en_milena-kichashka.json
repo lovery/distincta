@@ -5,7 +5,11 @@
 		"meta": {
 			"description": "Milena Kichashka IP attorneys, representation before BPO, OHIM, WIPO, customs authorities, the Court",
 			"keywords": "Intellectual Property, Trade Marks, Designs, Copyright, Patents, Geographical Indications, Trade Secrets, Registration, Certificate, License, Agreement, Innovation, Creative, Litigation, Bulgarian Patent Office, OHIM, WIPO, EPO",
-			"og:image": "milena.png"
+			"og:title": "Milena Kichashka - Distincta - Intellectual Property Agency",
+			"og:description": "Milena Kichashka IP attorneys, representation before BPO, OHIM, WIPO, customs authorities, the Court",
+			"og:image": "milena.png",
+			"og:image:width": "1160",
+			"og:image:height": "1160"
 		},
         "name": "Milena Kichashka",
         "slug": "milena-kichashka",

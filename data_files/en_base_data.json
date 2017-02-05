@@ -18,7 +18,12 @@
         	"description": "Distincta Intellectual Property Agency, we help you identify, register, manage and protect your trade marks, designs and creative works",
         	"keywords": "Intellectual Property, Trade Marks, Designs, Copyright, Patents, Geographical Indications, Trade Secrets, Registration, Certificate, License, Agreement, Innovation, Creative, Litigation, Bulgarian Patent Office, OHIM, WIPO, EPO",
 			"author": "Distincta - Intellectual Property Agency",
+			"og:title": "Distincta - Intellectual Property Agency",
+        	"og:description": "Distincta Intellectual Property Agency, we help you identify, register, manage and protect your trade marks, designs and creative works",
+			"og:locale": "en_US",
 			"og:image": "logo_share_image.png",
+			"og:image:width": "1200",
+			"og:image:height": "630",
 			"og:type": "website"
 		},
         "social_networks": [

@@ -13,7 +13,7 @@
 						for (var tag in $scope.news_data.meta) {
 							ngMeta.setTag(tag, $scope.news_data.meta[tag]);
 							if (tag == 'og:image') {
-								ngMeta.setTag('og:image', $location.imageOrigin + $scope.news_data.meta[tag]);
+								ngMeta.setTag('og:image', $location.imageOrigin + 'news/' + $scope.news_data.meta[tag]);
 							}
 						}
 					} else {

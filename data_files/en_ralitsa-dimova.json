@@ -5,7 +5,11 @@
 		"meta": {
 			"description": "Ralitsa Dimova IP attorney, representation before BPO, OHIM, WIPO, customs authorities, the Court",
 			"keywords": "Intellectual Property, Trade Marks, Designs, Copyright, Patents, Geographical Indications, Trade Secrets, Registration, Certificate, License, Agreement, Innovation, Creative, Litigation, Bulgarian Patent Office, OHIM, WIPO, EPO",
-			"og:image": "ralitsa.png"
+			"og:title": "Ralitsa Dimova - Distincta - Intellectual Property Agency",
+			"og:description": "Ralitsa Dimova IP attorney, representation before BPO, OHIM, WIPO, customs authorities, the Court",
+			"og:image": "ralitsa.png",
+			"og:image:width": "1160",
+			"og:image:height": "1160"
 		},
         "name": "Ralitsa Dimova",
         "slug": "ralitsa-dimova",

@@ -4,7 +4,9 @@
 		"page_title": "About Us - Distincta - Intellectual Property Agency",
 		"meta": {
 			"description": "Ralitsa Dimova Milena Kichashka IP attorneys, representation before BPO, OHIM, WIPO, customs authorities, the Court",
-			"keywords": "Intellectual Property, Trade Marks, Designs, Copyright, Patents, Geographical Indications, Trade Secrets, Registration, Certificate, License, Agreement, Innovation, Creative, Litigation, Bulgarian Patent Office, OHIM, WIPO, EPO"
+			"keywords": "Intellectual Property, Trade Marks, Designs, Copyright, Patents, Geographical Indications, Trade Secrets, Registration, Certificate, License, Agreement, Innovation, Creative, Litigation, Bulgarian Patent Office, OHIM, WIPO, EPO",
+			"og:title": "About Us - Distincta - Intellectual Property Agency",
+			"og:description": "Ralitsa Dimova Milena Kichashka IP attorneys, representation before BPO, OHIM, WIPO, customs authorities, the Court"
 		},
 		"review_biography_label": "Review",
 		"hide_biography_label": "Hide",

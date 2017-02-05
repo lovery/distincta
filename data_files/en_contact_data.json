@@ -4,8 +4,10 @@
 		"page_title": "Contact - Distincta - Intellectual Property Agency",
 		"meta": {
 			"description": "Distincta office@distincta.eu +359 2 885 2222",
-			"keywords": "Intellectual Property, Trade Marks, Designs, Copyright, Patents, Geographical Indications, Trade Secrets, Registration, Certificate, License, Agreement, Innovation, Creative, Litigation, Bulgarian Patent Office, OHIM, WIPO, EPO"
-		}
+			"keywords": "Intellectual Property, Trade Marks, Designs, Copyright, Patents, Geographical Indications, Trade Secrets, Registration, Certificate, License, Agreement, Innovation, Creative, Litigation, Bulgarian Patent Office, OHIM, WIPO, EPO",
+			"og:title": "Contact - Distincta - Intellectual Property Agency",
+			"og:description": "Distincta office@distincta.eu +359 2 885 2222"
+		},
 		"contact_content": [
 			"Should you need a consultation, advice or assistance in IP matters,",
 			"call us or drop us a line and we will gladly respond."
