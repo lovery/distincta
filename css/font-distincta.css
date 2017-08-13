@@ -44,19 +44,28 @@
   font-family: 'Century Gothic';
   font-style: normal;
   font-weight: 300;
-  src: local('Century Gothic Light'), local('Century-Gothic-Light'), url(../fonts/GOTHIC.TTF) format('ttf');
+  src: local('Century Gothic Light'), local('Century-Gothic-Light'), url(../fonts/GOTHIC.eot);
+  src: url('../fonts/GOTHIC.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/GOTHIC.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/GOTHIC.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 /* bulgarian */
 @font-face {
   font-family: 'Century Gothic';
   font-style: normal;
   font-weight: 400;
-  src: local('Century Gothic Regular'), local('Century-Gothic-Regular'), url(../fonts/GOTHIC.TTF) format('ttf');
+  src: local('Century Gothic Regular'), local('Century-Gothic-Regular'), url(../fonts/GOTHIC.eot);
+  src: url('../fonts/GOTHIC.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/GOTHIC.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/GOTHIC.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 /* bulgarian */
 @font-face {
   font-family: 'Century Gothic';
   font-style: normal;
   font-weight: 700;
-  src: local('Century Gothic Bold'), local('Century-Gothic-Bold'), url(../fonts/GOTHIC.TTF) format('ttf');
+  src: local('Century Gothic Bold'), local('Century-Gothic-Bold'), url(../fonts/GOTHIC.eot);
+  src: url('../fonts/GOTHIC.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/GOTHIC.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/GOTHIC.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
