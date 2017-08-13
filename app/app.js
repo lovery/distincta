@@ -29,25 +29,10 @@
 					templateUrl: 'templates/home.html',
 					controller: 'HomeCtrl'
 				})
-				.state('base.about', {
-					url: '/about',
-					templateUrl: 'templates/about.html',
-					controller: 'AboutCtrl'
-				})
 				.state('base.person', {
 					url: '/about/{person}',
 					templateUrl: 'templates/about-person.html',
 					controller: 'AboutPersonCtrl'
-				})
-				.state('base.expertise', {
-					url: '/expertise',
-					templateUrl: 'templates/expertise.html',
-					controller: 'ExpertiseCtrl'
-				})
-				.state('base.services', {
-					url: '/services',
-					templateUrl: 'templates/services.html',
-					controller: 'ServicesCtrl'
 				})
 				.state('base.news', {
 					url: '/news',
@@ -59,10 +44,10 @@
 					templateUrl: 'templates/news_item.html',
 					controller: 'NewsItemCtrl'
 				})
-				.state('base.contact', {
-					url: '/contact',
-					templateUrl: 'templates/contact.html',
-					controller: 'ContactCtrl'
+				.state('base.section', {
+					url: '/:section',
+					templateUrl: 'templates/section.html',
+					controller: 'SectionCtrl'
 				});
 		}
 	]);
