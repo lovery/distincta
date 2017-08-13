@@ -174,8 +174,7 @@
 			{
 				"name": "MyClinic",
 				"type": "horizontal",
-				"image": "myclinic.svg",
-				"src": "http://"
+				"image": "myclinic.svg"
 			},
 			{
 				"name": "Alcohol & Tabakoff",
