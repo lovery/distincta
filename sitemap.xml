@@ -88,7 +88,17 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-	  <loc>http://www.distincta.eu/bg/news/shape-of-product-2</loc>
+	<loc>http://www.distincta.eu/bg/news/shape-of-product-3</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+	<loc>http://www.distincta.eu/bg/news/use-of-trademark</loc>
+    <lastmod>2017-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+	<loc>http://www.distincta.eu/bg/news/shape-of-product-2</loc>
     <lastmod>2017-01-11</lastmod>
     <changefreq>monthly</changefreq>
   </url>
