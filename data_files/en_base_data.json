@@ -5,9 +5,10 @@
         "pages": [
             { "name": "Expertise", "slug": "expertise", "location": "en/expertise", "order": 1 },
             { "name": "About us", "slug": "about", "location": "en/about", "order": 2 },
-            { "name": "Services", "slug": "services", "location": "en/services", "order": 3 },
-            { "name": "News & Insight", "slug": "news", "location": "en/news", "order": 4 },
-            { "name": "Contact us", "slug": "contact", "location": "en/contact", "order": 5 }
+            { "name": "Portfolio", "slug": "portfolio", "location": "en/portfolio", "order": 3 },
+            { "name": "Services", "slug": "services", "location": "en/services", "order": 4 },
+            { "name": "News & Insight", "slug": "news", "location": "en/news", "order": 5 },
+            { "name": "Contact us", "slug": "contact", "location": "en/contact", "order": 6 }
         ],
         "lang": "en",
         "languages": [

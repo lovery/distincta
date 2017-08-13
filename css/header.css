@@ -473,7 +473,7 @@ header .navbar-default.scrolled ul.navbar-nav li a.active:after {
 header .navbar-default.scrolled .navbar-brand {
   background: #336799;
 }
-@media screen and (max-width: 991px) and (min-width: 768px) {
+@media screen and (max-width: 1200px) and (min-width: 768px) {
   header .navbar-default.navbar-fixed-top .navbar-collapse {
     margin: 0 -10px;
   }
@@ -573,7 +573,7 @@ header .navbar-default.scrolled .navbar-brand {
       float:none;
   }
 }
-@media screen and (max-width: 991px) and (min-width: 768px) {
+@media screen and (max-width: 1200px) and (min-width: 768px) {
   header .navbar-default .navbar-toggle:hover,
   header .navbar-default .navbar-toggle:focus {
     background: none;

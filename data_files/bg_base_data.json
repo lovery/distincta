@@ -5,9 +5,10 @@
         "pages": [
             { "name": "Дейност", "slug": "expertise", "location": "bg/expertise", "order": 1 },
             { "name": "За нас", "slug": "about", "location": "bg/about", "order": 2 },
-            { "name": "Услуги", "slug": "services", "location": "bg/services", "order": 3 },
-            { "name": "Новини и съвети", "slug": "news", "location": "bg/news", "order": 4 },
-            { "name": "За контакт", "slug": "contact", "location": "bg/contact", "order": 5 }
+            { "name": "Портфолио", "slug": "portfolio", "location": "bg/portfolio", "order": 3 },
+            { "name": "Услуги", "slug": "services", "location": "bg/services", "order": 4 },
+            { "name": "Новини и съвети", "slug": "news", "location": "bg/news", "order": 5 },
+            { "name": "За контакт", "slug": "contact", "location": "bg/contact", "order": 6 }
         ],
         "lang": "bg",
         "languages": [
