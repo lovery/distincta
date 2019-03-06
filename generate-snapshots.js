@@ -14,7 +14,7 @@ var result = htmlSnapshots.run({
 	outputDir: "./snapshots",
 	outputDirClean: true,
 	useJQuery: true,
-	timeout: 20000
+	timeout: 200000
 }, function(err, completed) {
 
 	console.log("completed snapshots:");
