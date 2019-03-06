@@ -53,6 +53,16 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>http://www.distincta.eu/en/portfolio</loc>
+    <lastmod>2017-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.distincta.eu/bg/portfolio</loc>
+    <lastmod>2017-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://www.distincta.eu/en/services</loc>
     <lastmod>2015-12-17</lastmod>
     <changefreq>monthly</changefreq>

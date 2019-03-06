@@ -10,7 +10,7 @@
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-{{ mark.size ? mark.size : 2 }} {{ mark.styles }}" ng-repeat="mark in section_data.marks">
         <div class="portfolio-item scrollpoint sp-effect2" style="text-align: center">
-          <a class="portfolio-link" ng-if="mark.src" ng-href="{{ mark.src }}" title="{{ mark.name }}" target="_blank">
+          <a class="portfolio-link" rel="nofollow" ng-if="mark.src" ng-href="{{ mark.src }}" title="{{ mark.name }}" target="_blank">
             <img ng-class="'photo ' + mark.type" ng-src="img/marks/{{ mark.image }}" style="{{ mark.width ? 'max-width: ' + mark.width : ''}}" alt="{{ mark.name }}" />
           </a>
           <div class="portfolio-link" ng-if="!mark.src" ng-href="{{ mark.src }}" title="{{ mark.name }}" target="_blank">
