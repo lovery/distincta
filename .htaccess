@@ -18,7 +18,7 @@ RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteCond %{HTTP_HOST} !^$
 RewriteRule ^/?(.*)      http://www.%{HTTP_HOST}/$1 [L,R=301,NE]
 
-RewriteCond %{HTTP_USER_AGENT} .*(bot|Bot).*
+RewriteCond %{HTTP_USER_AGENT} .*(bot|Bot|viber|Viber|whatsapp|Whatsapp|telegram|Telegram).*
 RewriteCond %{REQUEST_URI} !^/snapshots.*
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
