@@ -1,6 +1,5 @@
 const gulp = require('gulp');
 const concat = require('gulp-concat');
-const cconcat = require('gulp-continuous-concat');
 const less = require('gulp-less');
 const uglify = require('gulp-uglify');
 const watch = require('gulp-watch');
@@ -45,7 +44,7 @@ var config = {
 gulp.task('js-libs', function() {
 	return gulp.src(config.libs.js)
 		.pipe(concat('libs.js'))
-		.pipe(gulp.dest('dist'));
+		.pipe(gulp.dest('./dist/'));
 });
 
 /**
@@ -54,13 +53,13 @@ gulp.task('js-libs', function() {
 gulp.task('css-libs', function() {
 	return gulp.src(config.libs.css)
 		.pipe(concat('libs.css'))
-		.pipe(gulp.dest('dist'));
+		.pipe(gulp.dest('./dist/'));
 });
 
 /**
  * Task calling all task connected to libraries
  **/
-gulp.task('libs', ['js-libs', 'css-libs']);
+gulp.task('libs', gulp.series(['js-libs', 'css-libs']));
 
 /**
  * Validate all js files for folling correct style
@@ -79,7 +78,7 @@ gulp.task('jshint', function() {
 gulp.task('js', function() {
 	return gulp.src(config.src.js)
 		.pipe(concat('app.js'))
-		.pipe(gulp.dest('dist'));
+		.pipe(gulp.dest('./dist/'));
 });
 
 /**
@@ -88,7 +87,7 @@ gulp.task('js', function() {
 gulp.task('css', function() {
 	return gulp.src(config.src.css)
 		.pipe(concat('app.css'))
-		.pipe(gulp.dest('dist'));
+		.pipe(gulp.dest('./dist/'));
 });
 
 /**
@@ -97,18 +96,18 @@ gulp.task('css', function() {
 gulp.task('less', function() {
 	return gulp.src(config.src.less)
 		.pipe(concat('app.less'))
-		.pipe(gulp.dest('dist'));
+		.pipe(gulp.dest('./dist/'));
 });
 
-gulp.task('build', ['jshint', 'js', 'css']);
+gulp.task('build', gulp.series(['jshint', 'js', 'css']));
 
 /**
  * Task which should watch for modifucation in js files of the project
  **/
 gulp.task('js-watch', function() {
 	return watch(config.src.js, { ignoreInitial: false, verbose: true })
-		.pipe(cconcat('app.js'))
-		.pipe(gulp.dest('dist'));
+		.pipe(concat('app.js'))
+		.pipe(gulp.dest('./dist/'));
 });
 
 /**
@@ -116,8 +115,8 @@ gulp.task('js-watch', function() {
  **/
 gulp.task('css-watch', function() {
 	return watch(config.src.css, { ignoreInitial: false, verbose: true })
-		.pipe(cconcat('app.css'))
-		.pipe(gulp.dest('dist'));
+		.pipe(concat('app.css'))
+		.pipe(gulp.dest('./dist/'));
 });
 
 /**
@@ -125,15 +124,15 @@ gulp.task('css-watch', function() {
  **/
 gulp.task('less-watch', function() {
 	return watch(config.src.less, { ignoreInitial: false, verbose: true })
-		.pipe(gulp.dest('dist'));
+		.pipe(gulp.dest('./.dist/'));
 });
 
 /**
  * Task which calls all watch tasks
  **/
-gulp.task('watch', ['js-watch', 'css-watch', 'less-watch']);
+gulp.task('watch', gulp.series(['js-watch', 'css-watch', 'less-watch']));
 
 /**
  * List of task which should be called when only gulp is called
  * */
-gulp.task('default', ['libs', 'build']);
+gulp.task('default', gulp.series(['libs', 'build']));
