@@ -4,13 +4,18 @@
         <span class="fa fa-bars fa-lg"></span>
     </button>
     <a class="navbar-brand" href="{{ headerInfo.lang }}/home">
-        <img ng-src="img/{{ headerInfo.logo_filename }}" alt="{{ headerInfo.logo_alt_text }}" class="logo">
+        <svg ng-if="headerInfo.logo_filename" class="logo full-size" height="88" width="348" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <image ng-attr-xlink:href="{{ headerInfo.logo_filename }}" height="88" width="348" xlink:href=""></image>
+        </svg>
+        <svg ng-if="headerInfo.logo_filename" class="logo small" height="60" width="234" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>{{ headerInfo.logo_alt_text }}</title>
+            <image ng-attr-xlink:href="{{ headerInfo.logo_filename }}" height="60" width="234" xlink:href=""></image>
+        </svg>
     </a>
 </div>
 
 <!-- Collect the nav links, forms, and other content for toggling -->
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
     <ul class="nav navbar-nav navbar-right">
         <li ng-repeat="page in headerInfo.pages"><a class="{{ page.slug == pageSlug ? 'active' : '' }}" href="{{ page.location }}">{{ page.name }}</a></li>
         <li class="language"><a href="/{{ headerInfo.languages[0].slug + no_lang_path }}">{{ headerInfo.languages[0].name }}</a></li>

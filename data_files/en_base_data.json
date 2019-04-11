@@ -1,6 +1,6 @@
 [
     {
-        "logo_filename": "logo_white.png",
+        "logo_filename": "/img/logo_white.svg",
         "logo_alt_text": "Distincta - Intellectual Property Agency - Logo",
         "pages": [
             { "name": "Expertise", "slug": "expertise", "location": "en/expertise", "order": 1 },
