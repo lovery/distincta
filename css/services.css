@@ -39,7 +39,6 @@ section.services i.fa.hidden {
 }
 section.services .media .media-heading {
   padding-top: 10px;
-  font-weight: 300;
   cursor: pointer;
 }
 section.services .media.media-left .media-body {
@@ -84,7 +83,6 @@ section.services .panel-default.v3 .panel-body.active {
 }
 section.services .panel-default.v3 .panel-body p {
   font-size: 18px;
-  font-weight: 300;
 }
 section.services .panel-title i.fa {
   -webkit-border-radius: 50%;
@@ -106,7 +104,6 @@ section.services .panel-title span {
 }
 section.services .media .media-heading {
   padding-top: 10px;
-  font-weight: 300;
   cursor: pointer;
 }
 
