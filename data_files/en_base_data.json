@@ -38,14 +38,14 @@
                 "link": "https://www.linkedin.com/company/distincta?trk=top_nav_home"
             },
             {
-                "icon": "fa-google-plus",
+                "icon": "fa-facebook",
                 "display": "yes",
-                "link": "https://plus.google.com/101566740796570220790/"
+                "link": "https://www.facebook.com/DistinctaIP/"
             },
             {
-                "icon": "fa-facebook",
-                "display": "no",
-                "link": "https://www.facebook.com/ralitsa.dimova.18"
+                "icon": "fa-twitter",
+                "display": "yes",
+                "link": "https://twitter.com/DistinctaA"
             }
         ],
         "label_posted_on": "Posted on",
