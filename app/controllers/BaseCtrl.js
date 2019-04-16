@@ -6,6 +6,7 @@
 		function ($scope, $stateParams, $rootScope, $http, $location, ngMeta) {
 			$http.get('data_files/' + $location.path().substr(1, 2) + '_base_data.json').then( function (response) {
 				$scope.base_data = response.data[0];
+				$scope.base_data.currentYear = (new Date()).getFullYear();
 
 				ngMeta.setDefaultTag('author', $scope.base_data.meta.author);
 				ngMeta.setDefaultTag('og:url', $location.absUrl());
