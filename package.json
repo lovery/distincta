@@ -30,16 +30,16 @@
     "gulp-concat": "^2.6.1",
     "gulp-jshint": "^2.0.4",
     "gulp-less": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.7",
-    "gulp-watch": "^5.0.1",
     "html-snapshots": "^0.15.4",
     "jshint": "^2.10.2",
     "path": "^0.12.7",
     "util": "^0.10.3"
   },
   "dependencies": {
-    "angular": "^1.7.8",
+    "angular": "^1.7.9",
     "angular-resource": "^1.7.8",
     "angular-route": "^1.7.8",
     "angular-sanitize": "^1.7.8",
@@ -48,7 +48,7 @@
     "angular-utils-pagination": "^0.11.1",
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.1.1",
+    "jquery": "^3.4.1",
     "jquery-waypoints": "^2.0.5",
     "ng-meta": "^1.0.0"
   }

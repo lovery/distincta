@@ -2,8 +2,8 @@ const gulp = require('gulp');
 const concat = require('gulp-concat');
 const less = require('gulp-less');
 const uglify = require('gulp-uglify');
-const watch = require('gulp-watch');
 const jshint = require('gulp-jshint');
+const sourcemaps = require('gulp-sourcemaps');
 
 /**
  * Project main settings
@@ -43,7 +43,9 @@ var config = {
  **/
 gulp.task('js-libs', function() {
 	return gulp.src(config.libs.js)
+		.pipe(sourcemaps.init())
 		.pipe(concat('libs.js'))
+		.pipe(sourcemaps.write())
 		.pipe(gulp.dest('./dist/'));
 });
 
@@ -52,7 +54,9 @@ gulp.task('js-libs', function() {
  **/
 gulp.task('css-libs', function() {
 	return gulp.src(config.libs.css)
+		.pipe(sourcemaps.init())
 		.pipe(concat('libs.css'))
+		.pipe(sourcemaps.write())
 		.pipe(gulp.dest('./dist/'));
 });
 
@@ -105,26 +109,21 @@ gulp.task('build', gulp.series(['jshint', 'js', 'css']));
  * Task which should watch for modifucation in js files of the project
  **/
 gulp.task('js-watch', function() {
-	return watch(config.src.js, { ignoreInitial: false, verbose: true })
-		.pipe(concat('app.js'))
-		.pipe(gulp.dest('./dist/'));
+	gulp.watch(config.src.js, gulp.series(['js']));
 });
 
 /**
  * Task which should watch for modifucation in css files of the project
  **/
 gulp.task('css-watch', function() {
-	return watch(config.src.css, { ignoreInitial: false, verbose: true })
-		.pipe(concat('app.css'))
-		.pipe(gulp.dest('./dist/'));
+	gulp.watch(config.src.css, gulp.series(['css']));
 });
 
 /**
  * Task which should watch for modifucation in less files of the project
  **/
 gulp.task('less-watch', function() {
-	return watch(config.src.less, { ignoreInitial: false, verbose: true })
-		.pipe(gulp.dest('./.dist/'));
+	gulp.watch(config.src.less, gulp.series(['less']));
 });
 
 /**
