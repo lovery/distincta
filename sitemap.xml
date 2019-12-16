@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.distincta.eu/en/home</loc>
     <lastmod>2015-12-17</lastmod>
@@ -94,7 +94,12 @@
   </url>
   <url>
     <loc>http://www.distincta.eu/bg/news</loc>
-    <lastmod>2019-03-18</lastmod>
+    <lastmod>2019-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.distincta.eu/bg/news/Counterfeit-organized-crime</loc>
+    <lastmod>2019-04-15</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
