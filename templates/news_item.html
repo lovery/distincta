@@ -32,7 +32,8 @@
                         </div>
                         <div class="autor_info">
                             <span class="label">{{ base_data.label_autor }}</span><br/>
-                            <span class="value"><a href="{{ base_data.lang + '/about/' + news_data.autor_slug }}">{{ news_data.autor }}</a></span>
+                            <span class="value" ng-if="news_data.autor_slug"><a href="{{ base_data.lang + '/about/' + news_data.autor_slug }}">{{ news_data.autor }}</a></span>
+                            <span class="value" ng-if="!news_data.autor_slug">{{ news_data.autor }}</span>
                         </div>
                         <div class="post_tags">
                             <span class="label">{{ base_data.label_tags }}</span><br/>

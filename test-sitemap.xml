@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.test.distincta.eu/en/home</loc>
     <lastmod>2015-12-17</lastmod>
@@ -33,22 +33,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
-	<loc>http://www.test.distincta.eu/en/about/milena-kichashka</loc>
-    <lastmod>2016-12-09</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
     <loc>http://www.test.distincta.eu/bg/about</loc>
     <lastmod>2016-06-28</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
 	<loc>http://www.test.distincta.eu/bg/about/ralitsa-dimova</loc>
-    <lastmod>2016-12-09</lastmod>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-	<loc>http://www.test.distincta.eu/bg/about/milena-kichashka</loc>
     <lastmod>2016-12-09</lastmod>
     <changefreq>monthly</changefreq>
   </url>

@@ -4,6 +4,11 @@ section#about .about-item {
 section.about {
   position: relative;
 }
+section.about .about-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+}
 section.about .about-item {
   text-align: center;
   font-size: 17px;

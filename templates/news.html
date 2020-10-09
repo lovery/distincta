@@ -33,7 +33,10 @@
                     <div class="col-md-4 scale_image_container">
                         <div class="autor_event">
                             <div class="event_date">{{ news.date }}</div>
-                            <div class="autor_info"><a href="{{ base_data.lang + '/about/' + news.autor_slug }}">{{ news.autor }}</a></div>
+                            <div class="autor_info">
+                              <a ng-if="news.autor_slug" href="{{ base_data.lang + '/about/' + news.autor_slug }}">{{ news.autor }}</a>
+                              <span ng-if="!news.autor_slug">{{ news.autor }}</span>
+                            </div>
                         </div>
                         <a href="{{ base_data.lang + '/news/' + news.location }}"><img ng-src="img/news/{{ news.image }}" alt="{{ news.image_alt_text }}" class="scale_image"></a>
                         <div class="social-share">
