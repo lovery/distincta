@@ -1,9 +1,6 @@
 section#about .about-item {
   color: #999999;
 }
-section.about {
-  position: relative;
-}
 section.about .about-content {
     position: absolute;
     top: 50%;
@@ -174,4 +171,11 @@ section.about a, button {
   section.about .about-item .about-header-person-v2 h3 {
     margin-top: 10px;
   }
+}
+@media screen and (max-width: 991px) {
+    section.about .about-content {
+        position: relative;
+        top: auto;
+        transform: initial;
+    }
 }
