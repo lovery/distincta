@@ -1,0 +1,23 @@
+ErrorDocument 404 /404
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{HTTP_HOST} !^test\. [NC]
+RewriteCond %{HTTP_HOST} !^$
+RewriteRule ^/?(.*)      https://www.%{HTTP_HOST}/$1 [L,R=301,NE]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^$ https://%{HTTP_HOST}/en/home [L,R=301,NE]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} ^/(services|expertise|about|news|articles|contact|home) [NC]
+RewriteRule ^(.*)$ /en/$1 [L,R=301,NE]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} .*milena-kichashka [NC]
+RewriteRule ^(.*)milena-kichashka$ https://%{HTTP_HOST}/$1 [L,R=301,NE]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} .*news.* [NC]
+RewriteRule ^(.*)news(.*)$ https://%{HTTP_HOST}/$1articles${lc:$2} [L,R=301,NE]
