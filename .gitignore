@@ -1,6 +1,2 @@
-/node_modules
-/snapshots
-/dist
-update-test.sh
-update-prod.sh
+build
 *.swp
