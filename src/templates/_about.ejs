@@ -1,0 +1,25 @@
+<div class="section-heading scrollpoint sp-effect3 active animated fadeInLeft">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="about-content">
+        <% for(c of left_content) { %>
+          <p><%= c %></p>
+        <% } %>
+      </div>
+    </div>
+    <% for(person of biographies) { %>
+      <div class="col-md-6">
+        <div class="about-item scrollpoint sp-effect2">
+          <img class="photo img-circle" src="img/<%- person.photo %>" alt="<%- person.alt_text %>" />
+          <div class="about-header-person-v2">
+              <h3><%- person.name %></h3>
+              <h4><%- person.position %></h4>
+          </div>
+          <p class="trade_number"><%- person.bg_trade_number %></p>
+          <p class="trade_number"><%- person.en_trade_number %></p>
+          <a href="<%- person.url %>" class="button button_type button_blue"><%- labels.review_biography_label %></a><br/>
+        </div>
+      </div>
+    <% } %>
+  </div>
+</div>

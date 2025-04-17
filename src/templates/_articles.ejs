@@ -1,0 +1,77 @@
+<div class="section-heading" id="tag-label" style="display: none;">
+  <h2><%- labels.tag_search %> <strong></strong>:</h2>
+</div>
+<div class="section-heading posts scrollpoint sp-effect3 active animated fadeInDown">
+  <!--Post-->
+  <% for (n of entries) { %>
+    <div class="row post" id="<%- n.slug %>" tags="<%- n.tags %>">
+      <div class="col-md-8 post_container">
+        <div class="post_title">
+            <a href="<%- n.url %>"><%- n.name %></a>
+        </div>
+        <div class="post_text">
+            <p class="marked"><%- n.sub_title %></p>
+            <p><%- n.description%></p>
+            <!--div class="post_tags">
+                Тагове: <a href="#" ng-repeat="tag in news.tags" class="post_tag">{{ tag }};</a>
+            </div-->
+            <div class="read_more">
+                <a href="<%- n.url %>" class="button"><%- labels.button_more %></a>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-4 scale_image_container">
+        <div class="author_event">
+            <div class="event_date"><%- n.date %></div>
+            <div class="author_info">
+              <% if (n.author_slug) { %>
+                <a href="<%- lang + '/about/' + n.author_slug %>"><%- n.author %></a>
+              <% } else { %>
+                <span><%- n.author %></span>
+              <% } %>
+            </div>
+        </div>
+        <a href="<%- n.url %>"><img src="img/news/<%- n.image %>" alt="<%- n.image_alt_text %>" class="scale_image"></a>
+        <%- partial("../../templates/_article_share", { n: n, labels: labels }) %>
+      </div>
+    </div>
+  <% } %>
+  <!--Post-->
+</div>
+<div class="section-heading" id="tag_clear" style="display: none;">
+  <button class="border-0 button"><%- labels.tag_clear %></button>
+</div>
+<script>
+$(document).ready(function(){
+    var rTag = decodeURIComponent(location.hash).replaceAll('#', '');
+    var tagsContainer = $('#tag-label')[0];
+    var tagsText = $('#tag-label>h2>strong')[0];
+    var showAll = $('#tag_clear')[0];
+    var articles = $('.post');
+    if (rTag && tagsContainer && tagsText) {
+        tagsContainer.style = "";
+        showAll.style = "";
+        tagsText.textContent = rTag;
+
+        articles.each((i, el) => {
+            var tags = el.getAttribute('tags');
+            if (!tags.includes(rTag)) {
+                el.style = "display: none;";
+            } else {
+                el.style = "";
+            }
+        });
+    }
+    showAll.children[0].addEventListener('click', function(e){
+        e.preventDefault();
+        tagsContainer.style = "display: none";
+        showAll.style = "display: none";
+        tagsText.textContent = "";
+        rTags = "";
+        articles.each((i, el) => {
+            el.style = "";
+        });
+        location.hash = "";
+    });
+});
+</script>

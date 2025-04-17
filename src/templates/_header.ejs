@@ -1,0 +1,25 @@
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="fa fa-bars fa-lg"></span>
+      </button>
+      <a class="navbar-brand" href="<%- lang %>/home">
+        <svg class="logo full-size" height="88" width="348" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <image xlink:href="<%- logo_filename %>" height="88" width="348"></image>
+        </svg>
+        <svg class="logo small" height="60" width="234" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title><%- logo_alt_text %></title>
+          <image xlink:href="<%- logo_filename %>" height="60" width="234"></image>
+        </svg>
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <% for(tab of tabs) { %>
+          <li ><a class="<%- tab.slug == active_section ? 'active' : '' %>" href="<%- tab.url %>"><%- tab.name %></a></li>
+        <% } %>
+        <li class="language"><a href="<%- typeof alt_url != 'undefined' && alt_url ?  alt_url : languages[0].url %>"><%- languages[0].name %></a></li>
+      </ul>
+    </div>

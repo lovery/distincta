@@ -1,0 +1,17 @@
+<div class="row">
+  <% for (mark of marks) { %>
+    <div class="col-xs-12 col-sm-6 col-md-<%- (mark.size ? mark.size : 2 ) %> <%- mark.styles %>">
+      <div class="portfolio-item scrollpoint sp-effect2" style="text-align: center">
+        <% if (mark.src) { %>
+          <a class="portfolio-link" rel="nofollow" href="<%- mark.src %>" title="<%- mark.name %>" target="_blank">
+            <img class="photo <%- mark.type%>" src="img/marks/<%- mark.image %>" style="<%- (mark.width ? 'max-width: ' + mark.width : '') %>" alt="<%- mark.name %>" />
+          </a>
+        <% } else {%>
+          <div class="portfolio-link">
+            <img class="photo <%- mark.type%>" src="img/marks/<%- mark.image %>" style="<%- (mark.width ? 'max-width: ' + mark.width : '') %>" alt="<%- mark.name %>" />
+          </div>
+        <% } %>
+      </div>
+    </div>
+  <% } %>
+</div>

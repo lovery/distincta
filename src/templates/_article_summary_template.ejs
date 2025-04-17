@@ -1,0 +1,43 @@
+<div class="border-divider">&nbsp;</div>
+<div class="row">
+  <div class="col-md-5">
+    <div class="section-additional-container scrollpoint sp-effect3 active animated fadeInRight">
+      <div class="scale_image_container">
+        <img src="img/news/<%- image %>" alt="<%- image_alt_text %>" class="scale_image">
+      </div>
+    </div>
+  </div>
+  <div class="col-md-7">
+    <div class="section-additional-container scrollpoint sp-effect3 active animated fadeInRight">
+      <div class="event_date">
+          <span class="label"><%- labels.posted_on %></span><br/>
+          <span class="value"><%- date %></span>
+      </div>
+      <div class="author_info">
+          <span class="label"><%- labels.author %></span><br/>
+          <span class="value">
+              <% if (author_slug) { %>
+                  <a href="<%- lang + '/about/' + author_slug %>"><%- author %></a>
+              <% } else { %>
+                  <%- author %>
+              <% } %>
+          </span>
+      </div>
+      <div class="post_tags">
+          <span class="label"><%- labels.tags %></span><br/>
+          <span class="value">
+              <% for (tag of tags) { %>
+                  <a href="<%- lang + '/articles/#' + tag %>" class="post_tag"><%- tag %></a>
+              <% } %>
+          </span>
+      </div>
+      <div class="social-share">
+          <span class="label"><%- labels.share %></span><br/>
+          <span class="value">
+              <%- partial("../templates/_article_share", { n: {title: title, url: url }, labels: labels }) %>
+          </span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="border-divider">&nbsp;</div>

@@ -1,0 +1,15 @@
+    <div class="slogan">
+        <div class="slogan-title">
+           <h1><%= slogan %></h1>
+        </div>
+        <div class="slogan-content">
+            <h2><p>
+                <% for(var paragraph of home_slide) { %>
+                    <span><%= paragraph %><br/></span>
+                <% } %>
+            </p></h2>
+        </div>
+    </div>
+    <div class="slogan-bg-image">
+       <img src="img/be_distinctive.png" alt="<%= home_slide_img_alt_text %>"/>
+    </div>

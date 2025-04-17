@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="col-md-4">
+        <div class="about-item person scrollpoint sp-effect3 active animated fadeInLeft photo">
+            <img class="img-circle" src="img/<%- photo %>" alt="<%- alt_text %>" />
+        </div>
+    </div>
+    <div class="col-md-8 section-heading scrollpoint sp-effect3 active animated fadeInRight">
+        <div class="divider">
+            <h1><%- name %></h1>
+        </div>
+        <p class="trade_number"><%- bg_trade_number %></p>
+        <p class="trade_number"><%- en_trade_number %></p>
+    </div>
+</div>
+<div class=row>
+    <div class="col-md-12 section-heading scrollpoint sp-effect3 active animated fadeInTop">
+        <% for (paragraph of bio) {%>
+            <p><%- paragraph %></p>
+        <% } %>
+    </div>
+</div>
