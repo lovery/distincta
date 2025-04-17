@@ -1,0 +1,72 @@
+{
+    "globals": {
+        "name": "Distincta - Intellectual Property Agency",
+        "title": "Distincta - Intellectual Property Agency",
+        "logo_filename": "/img/logo_white.svg",
+        "logo_alt_text": "Distincta - Intellectual Property Agency - Logo",
+        "lang": "en",
+        "tabs": [
+            { "name": "Expertise", "slug": "expertise", "url": "/en/expertise" },
+            { "name": "About us", "slug": "about", "group": true, "url": "/en/about/" },
+            { "name": "Portfolio", "slug": "portfolio", "url": "/en/portfolio" },
+            { "name": "Services", "slug": "services", "url": "/en/services" },
+            { "name": "Useful for you", "slug": "articles", "group": true, "url": "/en/articles" },
+            { "name": "Contact us", "slug": "contact", "url": "/en/contact" }
+        ],
+        "active_section": "",
+        "sub_title": "",
+        "content": [],
+        "languages": [
+            { "name": "BG", "url": "bg/home", "slug": "bg", "locale": "bg_BG" }
+        ],
+        "meta": {
+            "title": "Distincta - Intellectual Property Agency",
+            "description": "Distincta Intellectual Property Agency, we help you identify, register, manage and protect your trade marks, designs and creative works",
+            "keywords": "Intellectual Property, Trade Marks, Designs, Copyright, Patents, Geographical Indications, Trade Secrets, Registration, Certificate, License, Agreement, Innovation, Creative, Litigation, Bulgarian Patent Office, OHIM, WIPO, EPO",
+            "author": "Distincta - Intellectual Property Agency",
+            "og_title": "Distincta - Intellectual Property Agency",
+            "og_description": "Distincta Intellectual Property Agency, we help you identify, register, manage and protect your trade marks, designs and creative works",
+            "og_locale": "en_US",
+            "og_locale_alternates": [],
+            "og_image": "https://www.distincta.eu/img/logo_share_image.png",
+            "og_image_width": "1200",
+            "og_image_height": "630",
+            "og_image_alt": "Distincta - Intellectual Property Agency in Bulgaria and Europe, register trade marks, register patents",
+            "og_type": "website",
+            "x_card": "summary",
+            "x_title": "Distincta - Intellectual Property Agency",
+            "x_description": "Distincta Intellectual Property Agency, we help you identify, register, manage and protect your trade marks, designs and creative works",
+            "x_image": "logo_share_image.png"
+        },
+        "social_networks": [
+            {
+                "icon": "fa-linkedin",
+                "link": "https://www.linkedin.com/company/distincta?trk=top_nav_home"
+            },
+            {
+                "icon": "fa-facebook",
+                "link": "https://www.facebook.com/DistinctaIP/"
+            },
+            {
+                "icon": "fa-twitter",
+                "link": "https://twitter.com/DistinctaA"
+            }
+        ],
+        "hideCommonHeadline": true,
+        "labels": {
+            "review_biography_label": "Review",
+            "hide_biography_label": "Hide",
+            "posted_on": "Posted on",
+            "author": "Author",
+            "tags": "Tags",
+            "share": "Share",
+            "button_more": "Read more",
+            "tag_search": "Publications containing this tag",
+            "tag_clear": "Show all publications",
+            "fb_label": "Share on Facebook",
+            "x_label": "Share on Twitter",
+            "lin_label": "Share on LinkedIn"
+        },
+        "err_404": "Ooops, the page you are looking for can't be found.<br/>Do you want to <a href=\"/en/contact\" class=\"button\">contact us</a>?"
+    }
+}
