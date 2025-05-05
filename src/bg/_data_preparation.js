@@ -18,7 +18,7 @@ var globals = {
 
 globals.base_data = JSON.parse(JSON.stringify(harp_data.globals));
 globals.base_data.title = globals.website_base_title;
-globals.base_data.logo_alt_text = "Distincta - Intellectual Property Agency - Logo";
+globals.base_data.logo_alt_text = "Distincta - Intellectual Property Agency - Logo, лицензиран представител по индустриална собственост, регистрира търговски марки и папенти в България, Европа и САЩ";
 globals.base_data.lang = globals.lang;
 globals.base_data.tabs = globals.tabs;
 globals.base_data.languages = [{ "name": "EN", "slug": 'en', "url": "en/home", "locale": "en_US" }];
@@ -28,7 +28,7 @@ globals.base_data.meta.author = globals.website_base_title;
 globals.base_data.meta.og_title = globals.website_base_title;
 globals.base_data.meta.og_description = globals.website_base_description;
 globals.base_data.meta.og_locale = globals.locale;
-globals.base_data.meta.og_image_alt = globals.website_base_title + ' в България и Европа, регистриране на търговски марки, регистриране на патенти';
+globals.base_data.meta.og_image_alt = globals.website_base_title + ' в България и Европа, регистрира търговски марки, регистрира патенти';
 globals.base_data.meta.x_title = globals.website_base_title;
 globals.base_data.meta.x_description = globals.website_base_description;
 

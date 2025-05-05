@@ -7,7 +7,7 @@ var people = [
         "position": "",
         "hideCommonHeadline": true,
 		"photo": "ralitsa.png",
-		"alt_text": "Ralitsa Dimova Photo",
+		"alt_text": "Ralitsa Dimova Photo intellectual property attorney register trade marks, patents in Bulgaria, Europe and USA",
 		"bg_trade_number": "Bulgarian Trade Mark and Design Attorney <span class=\"nowrap\">No. 301</span>",
 		"en_trade_number": "European Trade Mark and Design Attorney <span class=\"nowrap\">No. 39624</span>",
 		"meta": {
