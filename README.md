@@ -34,6 +34,8 @@ Add to `/etc/hosts`:
 ::1 www.distincta.localhost
 127.0.0.1 www.distincta.localhost
 ```
+
+When you change the css or js files run the minifications with `yui-compressor app.css > app.min.css`
 Build project for distincta.localhost and prod with:
 ```harp ./src ./build```
 
