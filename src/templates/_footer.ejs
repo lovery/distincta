@@ -1,12 +1,12 @@
 <footer>
     <div class="container">
-        <a href="home" class="scrollpoint sp-effect3">
+        <a aria-label="<%- logo_link_label %>" href="<%- lang %>/" class="scrollpoint sp-effect3">
         <svg class="logo full-size" height="60" width="237" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <image xlink:href="<%- logo_filename %>" height="60" width="237"></image>
         </a>
         <div class="social">
             <% for(var network of social_networks) { %>
-                <a rel="nofollow" target="_blank" class="scrollpoint sp-effect3" href="<%- network.link %>">
+                <a aria-label="<%- network.label %>" title="<%- network.label %>" rel="nofollow" target="_blank" class="scrollpoint sp-effect3" href="<%- network.link %>">
                     <i class="fa <%- network.icon %> fa-lg"></i>
                 </a>
             <% } %>

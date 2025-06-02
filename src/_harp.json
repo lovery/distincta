@@ -4,6 +4,7 @@
         "title": "Distincta - Intellectual Property Agency",
         "logo_filename": "/img/logo_white.svg",
         "logo_alt_text": "Distincta - Intellectual Property Agency - Logo",
+        "logo_link_label": "Link to the home page of Distincta's Intelectual Property Agency Website",
         "lang": "en",
         "tabs": [
             { "name": "Expertise", "slug": "expertise", "url": "/en/expertise" },
@@ -13,8 +14,8 @@
             { "name": "Useful for you", "slug": "articles", "group": true, "url": "/en/articles" },
             { "name": "Contact us", "slug": "contact", "url": "/en/contact" }
         ],
-								"tab_link_label": "Access Distincta's Intelectual Property Agency website navigation menu",
-								"tabs_link_label": "Read more about Distincta's Intelectual Property Agency ",
+        "tab_link_label": "Access Distincta's Intelectual Property Agency website navigation menu",
+        "tabs_link_label": "Read more about Distincta's Intelectual Property Agency ",
         "active_section": "",
         "sub_title": "",
         "content": [],
@@ -42,14 +43,17 @@
         },
         "social_networks": [
             {
+                "label": "Link to the LinkedIn page of Distincta Intelectual Property Agency",
                 "icon": "fa-linkedin",
                 "link": "https://www.linkedin.com/company/distincta?trk=top_nav_home"
             },
             {
+                "label": "Link to the facebook page of Distincta Intelectual Property Agency",
                 "icon": "fa-facebook",
                 "link": "https://www.facebook.com/DistinctaIP/"
             },
             {
+                "label": "Link to the X page of Distincta Intelectual Property Agency",
                 "icon": "fa-twitter",
                 "link": "https://twitter.com/DistinctaA"
             }

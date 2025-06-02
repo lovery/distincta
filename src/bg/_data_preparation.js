@@ -18,7 +18,7 @@ var globals = {
 
 globals.base_data = JSON.parse(JSON.stringify(harp_data.globals));
 globals.base_data.title = globals.website_base_title;
-globals.base_data.logo_alt_text = "Distincta - Intellectual Property Agency - Logo, лицензиран представител по индустриална собственост, регистрира търговски марки и папенти в България, Европа и САЩ";
+globals.base_data.logo_alt_text = "Лого на Дистинкта - Агенция за интелектуална собственост, лицензиран представител по индустриална собственост, регистрира търговски марки и папенти в България, Европа и САЩ";
 globals.base_data.lang = globals.lang;
 globals.base_data.tabs = globals.tabs;
 globals.base_data.languages = [{ "name": "EN", "slug": 'en', "url": "en/", "locale": "en_US" }];
@@ -47,6 +47,9 @@ globals.base_data.labels = {
     "x_label": "Сподели в X",
     "lin_label": "Сподели в LinkedIn"
 };
+globals.base_data.social_networks[0].label = "Връзка до профила на Дистинкта - Агенция за интелектуална собственост в LinkedIn";
+globals.base_data.social_networks[1].label = "Връзка до профила на Дистинкта - Агенция за интелектуална собственост във Facebook";
+globals.base_data.social_networks[0].label = "Връзка до профила на Дистинкта - Агенция за интелектуална собственост в X";
 
 globals.tabs.forEach(t => { t.url = '/' + globals.lang + '/' + t.slug + ( t.group ? '/' : ''); });
 

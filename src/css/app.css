@@ -476,10 +476,10 @@ section.contact .media i.fa {
   text-align: center;
 }
 section.contact .media .media-heading {
-  padding-top: 15px;
+  font-size: 28px;
 }
 section.contact .media .media-heading a {
-  font-weight: 400;
+  font-weight: 600;
 }
 section.contact header h1:after {
   background: #66cdcc;
@@ -930,6 +930,7 @@ section.expertise .filter span.colored {
        url('../fonts/philosopher-normal-italic.woff') format('woff'), /* Pretty Modern Browsers */
        url('../fonts/philosopher-normal-italic.ttf')  format('truetype'); /* Safari, Android, iOS */
        /*url('') format('svg'); /* Legacy iOS */
+  font-display: swap;
 }
 /* latin */
 @font-face {
@@ -941,6 +942,7 @@ section.expertise .filter span.colored {
        url('../fonts/philosopher-normal-normal.woff') format('woff'), /* Pretty Modern Browsers */
        url('../fonts/philosopher-normal-normal.ttf')  format('truetype'); /* Safari, Android, iOS */
        /*url('') format('svg'); /* Legacy iOS */
+  font-display: swap;
 }
 /* latin */
 @font-face {
@@ -952,6 +954,7 @@ section.expertise .filter span.colored {
        url('../fonts/philosopher-bold-normal.woff') format('woff'), /* Pretty Modern Browsers */
        url('../fonts/philosopher-bold-normal.ttf')  format('truetype'); /* Safari, Android, iOS */
        /*url('') format('svg'); /* Legacy iOS */
+  font-display: swap;
 }
 /* bulgarian */
 @font-face {
@@ -962,6 +965,7 @@ section.expertise .filter span.colored {
   src: url('../fonts/GOTHIC-ITALIC.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/GOTHIC-ITALIC.woff') format('woff'), /* Pretty Modern Browsers */
        url('../fonts/GOTHIC-ITALIC.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-display: swap;
 }
 /* bulgarian */
 @font-face {
@@ -972,6 +976,7 @@ section.expertise .filter span.colored {
   src: url('../fonts/GOTHIC.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/GOTHIC.woff') format('woff'), /* Pretty Modern Browsers */
        url('../fonts/GOTHIC.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-display: swap;
 }
 /* bulgarian */
 @font-face {
@@ -982,6 +987,7 @@ section.expertise .filter span.colored {
   src: url('../fonts/GOTHIC-BOLD.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/GOTHIC-BOLD.woff') format('woff'), /* Pretty Modern Browsers */
        url('../fonts/GOTHIC-BOLD.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-display: swap;
 }
 
 footer {
