@@ -2,6 +2,10 @@ Install apache2.
 
 Create symlink: `ln -s ~/workspace/distincta/build /var/www/html/distincta`
 Enable rewrite module of apache2: `sudo a2enmod rewrite`
+Enable headers module of apache2: `sudo a2enmod headers`
+
+Create self-signed certificates and put them in `/etc/apache2/ca/distinctaCA.crt(pem)` or change the comfiguration below
+..
 
 Create `/etc/apache2/sites-available/distincta.conf` with the following content:
 ```
@@ -20,6 +24,36 @@ Create `/etc/apache2/sites-available/distincta.conf` with the following content:
 	ErrorLog ${APACHE_LOG_DIR}/error.log
 	CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
+<IfModule mod_ssl.c>
+        <VirtualHost *:443>
+                ServerName distincta.localhost
+                ServerAlias www.distincta.localhost
+                ServerAdmin webmaster@localhost
+                DocumentRoot /var/www/html/distincta
+                <Directory "/var/www/html/distincta">
+                        Require all granted
+                        AllowOverride All
+                        Header set Cache-Control "max-age=31536000"
+                </Directory>
+
+                RewriteMap lc int:tolower
+
+                ErrorLog ${APACHE_LOG_DIR}/error.log
+                CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+                SSLEngine on
+                SSLCertificateFile /etc/apache2/ca/distinctaCA.crt
+                SSLCertificateKeyFile /etc/apache2/ca/distinctaCA.key
+                <FilesMatch “.(cgi|shtml|phtml|php)$”>
+                        SSLOptions +StdEnvVars
+                </FilesMatch>
+                <Directory /usr/lib/cgi-bin>
+                        SSLOptions +StdEnvVars
+                </Directory>
+                BrowserMatch “MSIE [2-6]” nokeepalive ssl-unclean-shutdown downgrade-1.0 force-response-1.0
+                BrowserMatch “MSIE [17-9]” ssl-unclean-shutdown
+        </VirtualHost>
+</IfModule>
 ```
 
 Create symlink to `sites-available`: `ln -s /etc/apache2/sites-available/distincta.conf /etc/apache2/sites-enabled/distincta.conf`
