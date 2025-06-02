@@ -36,8 +36,6 @@ Add to `/etc/hosts`:
 ```
 Build project for distincta.localhost and prod with:
 ```harp ./src ./build```
-After building the files all the `.html` files should be renamed, so their names don't include `.html` in the end.
-You can do this with the script `remove-html-suffix-from-build.sh`
 
 To run development server use ```harp ./src```
 

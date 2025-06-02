@@ -13,11 +13,13 @@
             { "name": "Useful for you", "slug": "articles", "group": true, "url": "/en/articles" },
             { "name": "Contact us", "slug": "contact", "url": "/en/contact" }
         ],
+								"tab_link_label": "Access Distincta's Intelectual Property Agency website navigation menu",
+								"tabs_link_label": "Read more about Distincta's Intelectual Property Agency ",
         "active_section": "",
         "sub_title": "",
         "content": [],
         "languages": [
-            { "name": "BG", "url": "bg/home", "slug": "bg", "locale": "bg_BG" }
+            { "name": "BG", "url": "bg/", "slug": "bg", "locale": "bg_BG" }
         ],
         "meta": {
             "title": "Distincta - Intellectual Property Agency",
