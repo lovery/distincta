@@ -12,7 +12,7 @@ var articles = [
         "social_description": "How the opposition procedure in Bulgaria work",
         "social_caption": "Objecting to the registration of a trademark application by means of an opposition in Bulgaria",
         "tags": ["trade mark", "similarity", "opposition", "Bulgarian trademark law", "proof of use", "likelihoood of confusion"],
-        "image": "magnifying-opposition.jpg",
+        "image": "magnifying-opposition.webp",
         "image_alt_text": "Opposing a trade mark application in Bulgaria, intellectual property attorney register trade marks, patents in Bulgaria, Europe and USA",
 		"meta": {
             "title": "Opposing a trade mark application in Bulgaria",
@@ -37,7 +37,7 @@ var articles = [
         "social_description": "Trademark protection for unregistered trademarks in Bulgaria",
         "social_caption": "How are unregistered trademarks protected in Bulgaria",
         "tags": ["unregistered trademark", "trademark protection", "bad faith", "proof of use", "opposition", "cancellation"],
-        "image": "unregistered-tms.jpg",
+        "image": "unregistered-tms.webp",
         "image_alt_text": "Unregistered trade marks in Bulgaria, intellectual property attorney register trade marks, patents in Bulgaria, Europe and USA",
 		"meta": {
 			"description": "The Bulgarian trade mark law acknowledges the rights in earlier unregistered trade marks, but the protection is rather restricted",
@@ -60,7 +60,7 @@ var articles = [
         "social_description": "",
         "social_caption": "Trade mark registration of the term Black Friday",
         "tags": ["trade mark", "Black Friday", "distinctive character", "goods and services", "scope of protection", "enforcement"],
-        "image": "black-friday.jpg",
+        "image": "black-friday.webp",
         "image_alt_text": "Black Friday is now a registered trade mark in Bulgaria, intellectual property attorney register trade marks, patents in Bulgaria, Europe and USA",
 		"meta": {
 			"description": "Black Friday registered as a trade mark in Bulgaria",
