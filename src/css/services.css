@@ -1,0 +1,179 @@
+section.services .services_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+section.services .media {
+    margin-top: 0;
+    display: flex;
+    flex: 1 1 auto;
+}
+section.services .media .media-heading {
+  color: #66cdcc;
+}
+section.services .media.active h3 {
+  color: #66cdcc;
+}
+section.services .servicesContainer {
+  border-color: #e5e5e5;
+}
+section.services .media .media-heading {
+  color: #66cdcc;
+}
+section.services .media .heading-container {
+    text-align: center;
+    padding-bottom: 10px;
+}
+section.services .panel-heading h3 {
+  color: #66cdcc;
+}
+section.services .media a {
+  cursor: pointer;
+}
+section.services .media > .pull-right {
+  margin-left: 20px;
+}
+section.services .media .icon {
+    display: flex;
+    justify-content: center;
+}
+section.services .media i.fa {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  padding: 20px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 2.6em;
+  text-align: center;
+}
+section.services .media.media-left .media-body {
+  text-align: right;
+}
+section.services .media.feature {
+  margin-top: 25px;
+}
+section.services .media.feature:first-child {
+  margin-top: 0;
+}
+section.services .service-container {
+  border: 1px dashed #66cdcc;;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+section.services .service-container:hover {
+  border-style: solid;
+}
+section.services .service-container .content {
+  font-size: 18px;
+  text-align: justify;
+}
+section.services img {
+  margin: 0 auto 20px;
+}
+section.services .panel-default.v3 {
+  cursor: pointer;
+}
+section.services .panel-default.v3 h3 {
+  text-align: center;
+}
+section.services .panel-default.v3 .panel-title i.fa {
+  padding: 6px;
+  font-size: 15px;
+}
+section.services .panel-default.v3 .panel-title i.fa.no-border {
+  border: 0;
+}
+section.services .panel-default.v3 .panel-body {
+  display: none;
+}
+section.services .panel-default.v3 .panel-body.active {
+  background-color: #ffffff;
+  display: block;
+  text-align: center;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+section.services .panel-default.v3 .panel-body p {
+  font-size: 18px;
+}
+section.services .panel-title i.fa {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  padding: 15px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 2.1em;
+  text-align: center;
+}
+section.services .panel-title span {
+  font-size: 20px;
+}
+section.services .media .media-heading {
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  section.services .panel-default.v3 h3 {
+    padding-left: 10px;
+  }
+}
+@media screen and (min-width: 361px) and (max-width: 640px) {
+  section.services .panel-default.v3 h3 {
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 360px) {
+  section.services .panel-default.v3 h3 {
+    padding-left: 10px;
+  }
+}
+section.services {
+  background: #f6f6f6;
+}
+section.services header h1:after {
+  background: #66cdcc;
+}
+section.services .media i.fa,
+section.services .panel-default i.fa {
+  border: 1px solid #66cdcc;
+  color: #66cdcc;
+}
+section.services .media:hover i.fa {
+  color: #ffffff;
+  background: #66cdcc;
+}
+section.services .media.active i.fa {
+  color: #ffffff;
+  background: #66cdcc;
+}
+section.services .media:hover h3 {
+  color: #66cdcc;
+}
+section.services .media.active i.fa {
+  color: #ffffff;
+  background: #66cdcc;
+}
+section.services .media.active .media-heading {
+  color: #66cdcc;
+}
+section.services .servicesContainer p {
+  font-size: 19px;
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  section.services .panel-default.v3 h3 {
+    padding-left: 10px;
+  }
+}

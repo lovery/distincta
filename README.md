@@ -69,7 +69,7 @@ Add to `/etc/hosts`:
 127.0.0.1 www.distincta.localhost
 ```
 
-When you change the css or js files run the minifications with `yui-compressor app.css > app.min.css`
+When you change the css or js files run the minifications with `for f in $(ls --ignore='*.min.css'); do yui-compressor $f > ${f%.css}.min.css ; done` executed in the `src/css` dir and `for f in $(ls --ignore='*.min.js'); do yui-compressor $f > ${f%.css}.min.js ; done` execured in the `src/js` dir
 Build project for distincta.localhost and prod with:
 ```harp ./src ./build```
 

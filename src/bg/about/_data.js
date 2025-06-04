@@ -7,7 +7,7 @@ var people = [
         "position": "Основател на Дистинкта",
         "hideCommonHeadline": true,
         "order": 1,
-        "photo": "ralitsa.png",
+        "photo": "ralitsa_235px.webp",
         "alt_text": "Ралица Димова Снимка, лицензиран представител по индустриална собственост, регистрира търговски марки и папенти в България, Европа и САЩ",
         "bg_trade_number": "Български представител (търговски марки и дизайни) <span class=\"nowrap\">No. 301</span>",
         "en_trade_number": "Европейски представител (търговски марки и дизайни) <span class=\"nowrap\">No. 39624</span>",

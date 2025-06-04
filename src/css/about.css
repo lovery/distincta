@@ -1,0 +1,343 @@
+section.about .about-item {
+  color: #999999;
+}
+section.about-person {
+  position: relative;
+}
+section.about-person .section-heading h1 {
+  font-size: 42px;
+}
+section.about .about-item {
+  text-align: center;
+  font-size: 17px;
+  line-height: 25px;
+}
+section.about .about-item.photo img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 235px;
+  height: 235px;
+}
+section.about .about-item .trade_number,
+section.about .about-item a {
+  text-align: center;
+}
+section.about .about-item .trade_number span.nowrap {
+  white-space: nowrap;
+}
+section.about .about-item i.fa {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  padding: 35px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 104px;
+}
+section.about .about-item i.fa {
+  border: 2px solid #66cdcc;
+  color: #66cdcc;
+}
+section.about .about-item:hover i.fa {
+  color: #ffffff;
+  background: #66cdcc;
+}
+section.about .about-item h3 {
+  color: #666666;
+}
+section.about .about-item a.about-biography-show,
+section.about .about-item a.about-biography-hide {
+  display: block;
+  color: #66cdcc !important;
+  font-family: "Century Gothic",Georgia,Serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+section.about .about-item a:hover {
+  text-decoration: none;
+}
+section.about .about-item a.about-biography-hide {
+  display: none;
+}
+.about-biography-content{
+  display: none;
+}
+section.about .about-item .about-header-person-v1 {
+  display: inline-block;
+}
+section.about .about-item .about-header-person-v2 h3 {
+  display: inline-block;
+}
+section.about .about-item h3:after {
+  background: #66cdcc;
+  content: "";
+  position: relative;
+  height: 2px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 13px auto;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+  border-radius: 5em;
+}
+section.about .about-item p {
+  text-align: justify;
+  color: #999999;
+  margin: 0 15px;
+}
+section.about-person .button.button_type {
+    margin-top: 15px;
+    padding: 8px 20px;
+}
+section.about-person .button.button_blue {
+    background: #66cdcc;
+    color: #fff;
+}
+section.about-person .button {
+    padding: 8px 15px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+}
+section.about-person a, button {
+    -webkit-transition: color .4s ease, background-color .4s ease;
+    transition: color .4s ease, background-color .4s ease;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  section.about .about-item.photo {
+    padding: 0;
+    padding-top: 20px;
+    text-align: center;
+  }
+  section.about .about-item .about-header-person-v2 h3 {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  section.about .about-item.photo {
+    padding: 0;
+    padding-top: 20px;
+    text-align: center;
+  }
+  section.about .about-item .about-header-person-v2 h3 {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 361px) and (max-width: 640px) {
+  section.about .about-item.photo {
+    padding: 0;
+    padding-top: 20px;
+    text-align: center;
+  }
+  section.about .about-item .about-header-person-v2 h3 {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 360px) {
+  section.about .about-item.photo {
+    padding: 0;
+    padding-top: 20px;
+    text-align: center;
+  }
+  section.about .about-item.photo img {
+    width: 80%;
+  }
+  section.about .about-item .about-header-person-v2 h3 {
+    margin-top: 10px;
+  }
+}
+
+section#about .about-item {
+  color: #999999;
+}
+section.about .about-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+}
+section.about .about-item {
+  text-align: center;
+  font-size: 17px;
+  line-height: 25px;
+}
+section.about .about-item .photo {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  padding: 35px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 235px;
+  height: 235px;
+}
+section.about .about-item .trade_number,
+section.about .about-item a {
+  text-align: center;
+}
+section.about .about-item .trade_number span.nowrap {
+  white-space: nowrap;
+}
+section.about .about-item i.fa {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  padding: 35px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  width: 104px;
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  section.about .about-item {
+    padding-bottom: 40px;
+  }
+  section.about .about-item .photo {
+    padding: 20px;
+  }
+  section.about .about-item .about-header-person-v2 h3 {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 361px) and (max-width: 640px) {
+  section.about .about-item {
+    padding-bottom: 40px;
+  }
+  section.about .about-item .photo {
+    padding: 20px;
+  }
+  section.about .about-item .about-header-person-v2 h3 {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 360px) {
+  section.about .about-item {
+    padding-bottom: 40px;
+  }
+  section.about .about-item .photo {
+    padding: 20px;
+  }
+  section.about .about-item .about-header-person-v2 h3 {
+    margin-top: 10px;
+  }
+}
+section.about .about-item i.fa {
+  border: 2px solid #66cdcc;
+  color: #66cdcc;
+}
+section.about .about-item:hover i.fa {
+  color: #ffffff;
+  background: #66cdcc;
+}
+section.about .about-item h3 {
+  color: #666666;
+}
+section.about .about-item a.about-biography-show,
+section.about .about-item a.about-biography-hide {
+  display: block;
+  color: #66cdcc !important;
+  font-family: "Century Gothic",Georgia,Serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+section.about .about-item a:hover {
+  text-decoration: none;
+}
+section.about .about-item a.about-biography-hide {
+  display: none;
+}
+.about-biography-content{
+  display: none;
+}
+section.about .about-item .about-header-person-v1 {
+  display: inline-block;
+}
+section.about .about-item .about-header-person-v2 h3 {
+  display: inline-block;
+}
+section.about .about-item h3:after {
+  background: #66cdcc;
+  content: "";
+  position: relative;
+  height: 2px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 13px auto;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+  border-radius: 5em;
+}
+section.about .about-item p {
+  text-align: justify;
+  color: #999999;
+  margin: 0 15px;
+}
+section.about .button.button_type {
+    margin-top: 15px;
+    padding: 8px 20px;
+}
+section.about .button.button_blue {
+    background: #66cdcc;
+    color: #fff;
+}
+section.about .button {
+    padding: 8px 15px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+}
+section.about a, button {
+    -webkit-transition: color .4s ease, background-color .4s ease;
+    transition: color .4s ease, background-color .4s ease;
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  section.about .about-item {
+    padding-bottom: 40px;
+  }
+  section.about .about-item .photo {
+    padding: 20px;
+  }
+  section.about .about-item .about-header-person-v2 h3 {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 991px) {
+    section.about .about-content {
+        position: relative;
+        top: auto;
+        transform: initial;
+    }
+}

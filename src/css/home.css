@@ -1,0 +1,65 @@
+.slogan {
+  position: absolute;
+}
+.slogan-title h1 {
+  color: #fff;
+  font-family: 'Philosopher', Arial !important;
+  font-weight: 400 !important;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  font-size: 35px;
+}
+.slogan-content h2 {
+  color: #fff;
+  font-family: 'Philosopher', Arial !important;
+  font-weight: 400 !important;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  font-size: 28px;
+  margin-top: 40px;
+}
+.slogan-bg-image {
+  background-image: url('/img/be_distinctive.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -5;
+}
+@media screen and (max-width: 991px) {
+  .slogan-bg-image {
+    background-image: url('/img/be_distinctive_991px.webp');
+  }
+}
+@media screen and (max-width: 768px) {
+  .slogan-bg-image {
+    background-image: url('/img/be_distinctive_768px.webp');
+  }
+}
+@media screen and (max-width: 640px) {
+  .slogan-bg-image {
+    background-image: url('/img/be_distinctive_640px.webp');
+  }
+  .slogan-title h1 {
+    font-size: 26px;
+  }
+  .slogan-content h2 {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .slogan-bg-image {
+    background-image: url('/img/be_distinctive_360px.webp');
+  }
+  .slogan-title h1 {
+    font-size: 24px;
+  }
+  .slogan-content h2 {
+    font-size: 18px;
+  }
+}
