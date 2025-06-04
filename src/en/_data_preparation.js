@@ -28,6 +28,10 @@ const methods = {};
 methods.createUrl = function(slug, prefix) {
     return m.createUrl(globals, slug, prefix);
 };
+methods.createPageUrl = function(slug, prefix) {
+    return m.createPageUrl(globals, slug, prefix);
+};
+methods.prepareArticlesData = m.prepareArticlesData;
 methods.prepareData = function(pages_data, p, active_section) {
     return m.prepareData(globals, pages_data, p, active_section);
 };

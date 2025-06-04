@@ -38,7 +38,7 @@ var pages_data = {
 
 // Generate each page's data
 for (p of people) {
-    p.url = methods.createUrl(p.slug, 'about');
+    p.url = methods.createPageUrl(p.slug, 'about');
     pages_data[p.slug] = methods.prepareData(p, 'about');
 }
 

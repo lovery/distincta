@@ -286,12 +286,6 @@ var pages_data = {
     })
 };
 
-articles.forEach(e => { e.isArticle = true; e.url = methods.createUrl(e.slug, 'articles'); });
-pages_data["index"].entries = articles;
-
-// Generate each page's data
-for (article of articles) {
-    pages_data[article.slug] = methods.prepareData(article, 'articles');
-}
+methods.prepareArticlesData(articles, methods, pages_data);
 
 module.exports = pages_data;

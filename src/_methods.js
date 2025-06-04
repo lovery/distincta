@@ -4,6 +4,24 @@ function createUrl (globals, slug, prefix) {
     return '/' + globals.lang + '/' + ( prefix ?  prefix + '/' : '' ) + slug;
 };
 
+function createPageUrl (globals, slug, prefix) {
+    return createUrl(globals, slug, prefix) + '.html';
+};
+
+function prepareArticlesData(articles, methods, pages_data) {
+  articles.forEach(e => {
+    e.isArticle = true;
+    e.url = methods.createPageUrl(e.slug, 'articles');
+    e.author_url = e.author_slug ? methods.createPageUrl(e.author_slug, 'about'): '';
+  });
+  pages_data["index"].entries = articles;
+
+  // Generate each page's data
+  for (article of articles) {
+    pages_data[article.slug] = methods.prepareData(article, 'articles');
+  }
+}
+
 function prepareData (globals, p, active_section) {
     let slug = p.slug;
     var strData = JSON.stringify(globals.base_data);
@@ -78,4 +96,4 @@ function prepareData (globals, p, active_section) {
     return pData;
 };
 
-module.exports = { createUrl, prepareData};
+module.exports = { createUrl, createPageUrl, prepareArticlesData, prepareData};

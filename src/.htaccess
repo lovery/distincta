@@ -16,8 +16,8 @@ RewriteCond %{REQUEST_URI} ^/(services|expertise|about|news|articles|contact|hom
 RewriteRule ^(.*)$ /en/$1 [L,R=301,NE]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_URI} ^/(en|bg)/home [NC]
-RewriteRule ^/(en|bg)/home$ https://%{HTTP_HOST}/$1/ [L,R=301,NE]
+RewriteCond %{REQUEST_URI} .*home.* [NC]
+RewriteRule ^(.*)home.*$ /$1 [L,R=301,NE]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} .*milena-kichashka [NC]
@@ -27,6 +27,6 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} .*news.* [NC]
 RewriteRule ^(.*)news(.*)$ https://%{HTTP_HOST}/$1articles${lc:$2} [L,R=301,NE]
 
-<IfModule mod_deflate.c>
-    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript
-</IfModule>
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} .*articles/.+ [NC]
+RewriteRule ^(.*)articles/(.+)$ https://%{HTTP_HOST}/$1articles/${lc:$2}.html [L,R=301,NE]
