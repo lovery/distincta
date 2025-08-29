@@ -12,7 +12,7 @@ var portfolio_data = {
         "name": "Areon",
         "type": "horizontal",
         "image": "areon.svg",
-        "src": "http://areon-fresh.com"
+        "src": "https://areon.com"
     },
     {
         "name": "Teo bebe",
@@ -25,13 +25,13 @@ var portfolio_data = {
         "name": "Mon",
         "type": "horizontal",
         "image": "mon.svg",
-        "src": "http://areon-fresh.com/products/wet-wipes/"
+        "src": "https://areon.com"
     },
     {
         "name": "Rose Rio",
         "type": "horizontal",
         "image": "rose-rio.svg",
-        "src": "http://stscosmetics.bg/brands/rose-rio-beauty-program"
+        "src": "https://stscosmetics.bg"
     },
     {
         "name": "Teo",
@@ -56,7 +56,7 @@ var portfolio_data = {
         "name": "Areon Mon",
         "type": "horizontal",
         "image": "areon-mon.svg",
-        "src": "http://areon-fresh.com"
+        "src": "https://areon.com"
     },
     {
         "name": "RAWGANIC Passion",
@@ -68,7 +68,7 @@ var portfolio_data = {
         "name": "Coffee Ness",
         "type": "horizontal",
         "image": "coffee-ness.svg",
-        "src": "http://www.alcoholtabakoff.com/en/"
+        "src": "https://alcoholtabakoff.com"
     },
     {
         "name": "Fox Laser",
@@ -80,7 +80,7 @@ var portfolio_data = {
         "name": "Max Dent",
         "type": "horizontal",
         "image": "max-dent.svg",
-        "src": "http://stscosmetics.bg/categories/oral-care"
+        "src": "https://stscosmetics.bg"
     },
     {
         "name": "Digital KidZ",
@@ -95,14 +95,6 @@ var portfolio_data = {
         "type": "horizontal",
         "image": "dynamics-mobile.svg",
         "src": "http://www.dynamicsmobile.com/index.html"
-    },
-    {
-        "name": "BAMBOOCUP",
-        "size": 3,
-        "type": "horizontal",
-        "image": "bamboo-cup.svg",
-        "width": "250px",
-        "src": "http://www.balevbiomarket.com/nehranitelni-produkti/chashi.html?___store=en&___from_store=bg"
     },
     {
         "name": "Balev Bio",
@@ -125,7 +117,28 @@ var portfolio_data = {
         "type": "horizontal",
         "image": "balev.svg",
         "width": "240px",
-        "src": "http://www.promotionalfresheners.com/"
+        "src": "https://areon.com"
+    },
+    {
+        "name": "Berezka",
+        "size": 3,
+        "type": "horizontal",
+        "image": "berezka.svg",
+        "src": "https://berezka.bg/"
+    },
+    {
+        "name": "Beep Beep",
+        "size": 3,
+        "type": "horizontal",
+        "image": "beep-beep.svg",
+        "src": "https://areon.com"
+    },
+    {
+        "name": "Drop IN",
+        "size": 3,
+        "type": "horizontal",
+        "image": "drop-in.svg",
+        "src": "http://dropin-shop.com/"
     },
     {
         "name": "Feya",
@@ -138,13 +151,19 @@ var portfolio_data = {
         "name": "Areon Nature",
         "type": "vertical",
         "image": "areon-nature.svg",
-        "src": "http://areon-fresh.com"
+        "src": "https://areon.com"
     },
     {
-        "name": "I/Tems",
+        "name": "Brave New Hair",
+        "type": "vertical",
+        "image": "bravenewhair.png",
+        "src": "https://bravenewhair.bg/"
+    },
+    {
+        "name": "HRS",
         "type": "horizontal",
-        "image": "i-tems.svg",
-        "src": "http://www.i-tems.eu/"
+        "image": "hrs.svg",
+        "src": "https://www.hrs-bg.com/"
     },
     {
         "name": "StudioCarbon",
@@ -153,33 +172,30 @@ var portfolio_data = {
         "src": "http://studiocarbon.bg/"
     },
     {
-        "name": "Beep Beep",
-        "type": "horizontal",
-        "image": "beep-beep.svg",
-        "src": "http://areon-fresh.com"
-    },
-    {
-        "name": "Drop IN",
-        "type": "horizontal",
-        "image": "drop-in.svg",
-        "src": "http://dropin-shop.com/"
-    },
-    {
-        "name": "MyClinic",
-        "type": "horizontal",
-        "image": "myclinic.svg"
-    },
-    {
         "name": "Alcohol & Tabakoff",
         "type": "horizontal",
         "image": "alcohol-tabakoff.svg",
-        "src": "http://www.alcoholtabakoff.com/en/"
+        "src": "https://alcoholtabakoff.com"
+    },
+    {
+        "name": "I/Tems",
+        "size": 3,
+        "type": "horizontal",
+        "image": "i-tems.svg",
+        "src": "http://www.i-tems.eu/"
     },
     {
         "name": "Ruvex",
+        "size": 3,
         "type": "horizontal",
         "image": "ruvex.svg",
         "src": "http://ruvex.bg/bg"
+    },
+    {
+        "name": "MyClinic",
+        "size": 3,
+        "type": "horizontal",
+        "image": "myclinic.svg"
     }
   ]
 };
